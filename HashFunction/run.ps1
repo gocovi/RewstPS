@@ -18,7 +18,7 @@ else {
     $Result = ([System.BitConverter]::ToString($Hash).Replace('-', '').ToLower())
 
     Push-OutputBinding -Name Response -Value ([HttpResponseContext]@{
-            StatusCode = [HttpStatusCode]::BadRequest;
+            StatusCode = [HttpStatusCode]::OK;
             Headers    = @{
                 "Content-type" = "application/json"
             };
