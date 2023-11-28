@@ -18,7 +18,7 @@ try {
             Headers    = @{
                 "Content-type" = "application/json"
             };
-            Body       = @{ response = $Result } | ConvertTo-Json;
+            Body       = @{ response = $Result } | ConvertTo-Json -Depth 99;
         })
 }
 catch {
@@ -28,6 +28,6 @@ catch {
             Headers    = @{
                 "Content-type" = "application/json"
             };
-            Body       = @{ error = $_.Exception.Message } | ConvertTo-Json;
+            Body       = @{ error = $_.Exception.Message } | ConvertTo-Json -Depth 99;
         })
 }
