@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "func",
+            "label": "func: host start",
+            "command": "host start",
+            "problemMatcher": "$func-powershell-watch",
+            "isBackground": true
+        },
+        {
+            "label": "ngrok",
+            "type": "shell",
+            "command": "ngrok http --domain=gocovi.ngrok.dev 7071",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "isBackground": true
+        }
+    ]
+}
