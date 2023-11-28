@@ -50,7 +50,7 @@ I then created a workflow called `Get Avanan Signature` (bundle available in the
 
     Note that I have my `avanan_app_id` and `avanan_app_secret` as org variables.
 
-2. Run the `Run PowerShell Script` subworkflow with your `Get-AvananScript` script.
+2. Runs the `Run PowerShell Script` subworkflow with your `Get-AvananScript` script.
 
 In the subworkflow, you'll notice that results are returned `RESULT.result.response`, so if you want to try this in Postman, you can expect anything that your PowerShell script returns as output to be delivered like the following:
 
