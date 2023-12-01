@@ -59,45 +59,19 @@ In my testing, this means you can run almost anything that can run in Azure Func
 
 # Avanan Example
 
-# Usage
-
-I originally wrote this to create Avanan signatures, but it should work with any script. Here's a screenshot of my `Get-AvananSignature` script in Rewst:
+I have not tested posting data, yet! If you try it, you'll want to pass your body like this:
 
 ```
-$Request = "{{ CTX.request }}"
-$Base64Signature = [System.Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes($Request))
-$Hash = [System.Security.Cryptography.HashAlgorithm]::Create('sha256').ComputeHash([System.Text.Encoding]::UTF8.GetBytes($Base64Signature))
-([System.BitConverter]::ToString($Hash).Replace('-', '').ToLower())
-```
-
-This script takes the `CTX.request` variable, converts it to base64, then hashes it with sha256. The hashing part is something that Rewst can't currently do.
-
-I then created a workflow called **Get Avanan Signature** (bundle available in the workflows folder). This does the following:
-
-1. Creates a new `CTX.request` variable with the following Jinja:
-
-    ```
-    {{ (CTX.request_id + ORG.VARIABLES.avanan_app_id + CTX.request_date + CTX.request_text + ORG.VARIABLES.avanan_app_secret) }}
-    ```
-
-    Note that I have my `avanan_app_id` and `avanan_app_secret` as default org variables.
-
-2. Runs the **Run PowerShell Script** subworkflow with your **Get-AvananScript** script. Note that you may need to change this to your script in your **Get Avanan Signature** workflow.
-
-In the subworkflow, you'll notice that results are returned `RESULT.result.response`, so if you want to try this in Postman, you can expect anything that your PowerShell script returns as output to be delivered like the following:
-
-```
-{
-    "response": "Hello World"
-}
-```
-
-Additionally, if your result is an object, it'll return as an object. Example:
-
-```
-{
-    "response": {
+{{
+    {
         "foo": "bar"
-    }
-}
+    } | json_dump
+}}
 ```
+
+1. Add the following as default organization variables:
+    - `avanan_app_id`
+    - `avanan_app_secret`
+1. Add the `Invoke-AvananRestMethod.ps1` script in the examples folder to your scripts in Rewst.
+1. Import the **avanan_rest_api.bundle.json** in the workflows folder.
+1. Test the imported workflow. Per the standard results from the Avanan SmartAPI, you should have your tenant data in `{{ RESULT.result.responseData }}`.

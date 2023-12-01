@@ -1,0 +1,1 @@
+'{{ CTX.hello }}' | ConvertFrom-JSON
