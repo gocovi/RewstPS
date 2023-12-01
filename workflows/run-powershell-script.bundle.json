@@ -1,1 +1,448 @@
-{"version":2,"exportedAt":"2023-11-28T13:40:37.230321+00:00","signing":{"cert":"-----BEGIN CERTIFICATE-----\nMIICazCCAfGgAwIBAgIUFJtHAR8D+ZfChHcAXHemH7s8zRowCgYIKoZIzj0EAwIwfDELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkZMMQ4wDAYDVQQHEwVUYW1wYTEOMAwGA1UEChMFUmV3c3QxEzARBgNVBAsTClJld3N0IERldnMxKzApBgNVBAMTImxvY2FsIFJld3N0IEltcG9ydC9FeHBvcnQgQ0EyIHYxLjEwHhcNMjIwNjAzMTkwMDU1WhcNMjUwNTIzMTkwMTI1WjBDMQswCQYDVQQGEwJVUzELMAkGA1UECBMCRkwxDjAMBgNVBAcTBVRhbXBhMRcwFQYDVQQDEw5sb2NhbC5yZXdzdC5pbzB2MBAGByqGSM49AgEGBSuBBAAiA2IABMcTJzyLIvX1+3545EJbFeNVjahxVq6TFQ7n/IYZs4yEMQzDWZjAyHhJPZk3Dxq/wFzesXMYJu41rhxfz7AZh15LtFGfy9V2B4X5KH7sGJWqOan0mabuF83llruTLA/NQaNtMGswDgYDVR0PAQH/BAQDAgeAMB0GA1UdDgQWBBTDePOSC6hckrg6usrK2giZv9GxpjAfBgNVHSMEGDAWgBTojdemsJqfnB19iyMxmIi3OGYw6TAZBgNVHREEEjAQgg5sb2NhbC5yZXdzdC5pbzAKBggqhkjOPQQDAgNoADBlAjEA8NsLnuGhfTPC7dB0ojWf5WmH64qFZuPFD6Q0RwGYO0D1Tn2x5+/37kW3HFcGHV0wAjBM7LSidsc7E9+fmcesnN5hM34eGMP+YWCoEeFIPPANXQKemAgUVf35iXyU64sVEC4=\n-----END CERTIFICATE-----","hash":"sha512","signature":"MGUCMQDGGV6CCTnW7vljTI7cleY6j2D5h+YW6S8fAM/W3TAzzl1/VR3CAy4VibqcDeTSZa4CMAtu/B1r2ni7S/qTcpj4805Ytg6ZOPjp62tNcc7XfNg+5FabE1DegI+oE8yAQV6LRw=="},"objects":{"workflow_task_id:6ct9xaoifqG41ZGRuM8JiF2c5X4JA3kLcg24P1y88VYi":{"type":"workflow_task_id","content_hash":"3ne3EzgRebwBQGAcLx3NL3NZM5qfkDnseSGcaAS3QNso","hash":"4sRYzRL6iTA2qSvtu7cAZKDzdLxxe9UaMriFnCadoSDv","fields":{"id":"bcac96c6f3254d5489321faec4ea056f"}},"action:Ed9bkJfGesiDpqRtvyNP5dUA5vLuv2Coh16f9ZruEBby":{"type":"action","content_hash":"43yEKANtUPK6radWrCaXrUAzEApBtGPN2CPHUiYqDuz2","hash":"GQRrpPbG4wH4GAtrvdbH7Bo6ije5m4LMfygjmSryUTZU","fields":{"ref":"custom.generic_request"}},"transition_id:974Q3uqfffts2GWGFdhh8uv8VCdLrruFHWNyNK4nSNrN":{"type":"transition_id","content_hash":"3VNopgGqXXJQ6QiXoXgxjyN2T8VF8swLXmREsJ2yL8Mo","hash":"8Tgu2zEfa896xo5pwUsFCJRtUk1ffbZexGccQkxtHBt2","fields":{"id":"f7d58091-4256-4e10-9c8e-dfff39f18fc3"}},"workflow_task_id:3Hk6r82mPWzbzaEWd9J6CP2QYkAsLFfQpQEZBRTeB6My":{"type":"workflow_task_id","content_hash":"BLCZQtHtHKbQ2JK6HtgPMybeSVsZWdyZbqAVKpZDgdZv","hash":"EjdEwp3BXHWhYvLULHNDVATXuUEzteeo92Erahbktrii","fields":{"id":"846ffb530e0a4303af363e46e06e26f3"}},"workflow_task_id:Br3DUMFTwQHkfYqtgUgWiAnfJUk6JxaUe7eYcsCXYAe3":{"type":"workflow_task_id","content_hash":"2U2tWNdZEzLW2r43YiS76pJRbENEHdJaghejam51AXzm","hash":"BFvR71SLzP3QUdpVXsBcujebNTfXRiG5FpL2myTiw3Sg","fields":{"id":"d9dc48149e5540d9a0cfdda6debf8ce9"}},"workflow_task_id:Gjw8dDFs8xFzas3V7btQvbh7BPf3fcYSwuijXBjyLuyN":{"type":"workflow_task_id","content_hash":"Cqm33d1X4KfnpJc3zGbjHzo3avvbmu76ziBzwt62n8Bu","hash":"5MbteC5ZM5V2PmDWap5uZ9aAKDS1vKRNJRtPascteXjN","fields":{"id":"e12a5145c4ef4591bf452ef70bd722e7"}},"transition_id:5GUyQbttsFHbBvr7CwYKMCXPbBJRzuewxLKrz5HJXYmh":{"type":"transition_id","content_hash":"FvMTnbsehdrBGa2XzfVA8MEWKjMm52bAhc3v7aLkdkfJ","hash":"HpHwNpFtpeSV244cFZm12p9wDmMp9Rzhb3ZNwAFcSzJV","fields":{"id":"d500f6c1-0c05-464e-a487-a201f23c6dd3"}},"action:8YawB5a5tzEoVCy8gwBdnKLcegyzfXXRPMMra8FwFsiw":{"type":"action","content_hash":"CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB","hash":"Arr2RCEM96WqU2EkvigszSfsW9GZHa4HJC5a1fL9qZ5g","fields":{"ref":"core.noop"}},"transition_id:6BqVNxxCzE16B8EzuGmg84P5wHVRXJTsTyiCSSYgeeu4":{"type":"transition_id","content_hash":"Fi4hKtaxptyzSWwtD38oN1sPP34rprufAkuwE8XR3BR8","hash":"33SPNkb53SFKBQfpUoxMnwbujBD7Dh4rkVMViwGE9JEu","fields":{"id":"16b01bab-e4b2-4fc5-8196-c4991f13ed3b"}},"transition_id:6wqJMHSLk8Jk3xWUGpBXYyW9MJHZKL88rZSyErQqmByy":{"type":"transition_id","content_hash":"FmtDLJrWj7SWE1pcJbXuyiS974NEYmurHfkUkYK48vaf","hash":"J2vpZ6TJqUw6zTEhjJ5jiM8475J5MQUfMjb9hrUQg43w","fields":{"id":"39da4784-3470-48c2-9945-a0eed286c671"}},"transition_id:92Zezh3GFhzBX1iCF6Qex3tohCJ4Z79suHAYxsGauTpK":{"type":"transition_id","content_hash":"AzQ3y3vwrCiCVUnnxpmJ81Cbu2wzY58B1UuoMJHWQhGp","hash":"BCGh9jDWwkKP1DgETB4F1Nox5upcjEVQjjLTtQMz5cX5","fields":{"id":"cc965096-593b-42c1-bb3e-d69d7a2d398b"}},"workflow:61UpRj88hsFRZpY7FuFBwWGYkAJrGJv7JRo7TfkBqSzW":{"type":"workflow","content_hash":"CfzmkzkwfqWiGM5mLHuQU4q4165Jhph5HejrjStkWHkh","hash":"8fe3v8zEKoum4ps9qW23AcosiSNqZMJTfSDRaqk97m6B","fields":{"humanSecondsSaved":0,"notes":[],"output":[{"result":"{{ CTX.response }}"}],"parameters":{"encode":{"type":"boolean","default":"{{ true }}","required":true,"multiline":false},"script_content":{"type":"script","default":"","required":true,"multiline":false}},"tasks":[{"id":"@@@workflow_task_id_ref1@@@","action":{"id":"@@@action_ref1@@@"},"humanSecondsSaved":0,"input":{"data":"{{ CTX.script_content }}","json":null,"method":"POST","params":{"encoded":"{{ CTX.encode }}"},"cookies":null,"headers":{"x-functions-key":"{{ ORG.VARIABLES.rewstps_az_functions_key }}"},"raw_json":null,"url_path":"https://rewstps.azurewebsites.net/api/run","follow_redirects":true,"require_2xx_status":true},"isMocked":false,"join":0,"mockInput":{"mock_result":{}},"name":"run_script","next":[{"do":["@@@workflow_task_id_ref4@@@"],"from":null,"id":"@@@transition_id_ref1@@@","publish":[{"key":"response","value":"{{ RESULT.result.response }}"}],"to":null,"when":"{{ SUCCEEDED }}"}],"packOverrides":[],"publishResultAs":"","retry":null,"runAsOrgId":"","timeout":600,"transitionMode":"FOLLOW_ALL","with":null},{"id":"@@@workflow_task_id_ref2@@@","action":{"id":"@@@action_ref2@@@"},"humanSecondsSaved":0,"input":{},"isMocked":false,"join":0,"mockInput":{"mock_result":{}},"name":"BEGIN","next":[{"do":["@@@workflow_task_id_ref3@@@"],"from":null,"id":"@@@transition_id_ref2@@@","publish":[],"to":null,"when":"{{ SUCCEEDED }}"}],"packOverrides":[],"publishResultAs":"","retry":null,"runAsOrgId":"","timeout":600,"transitionMode":"FOLLOW_ALL","with":null},{"id":"@@@workflow_task_id_ref3@@@","action":{"id":"@@@action_ref2@@@"},"humanSecondsSaved":0,"input":{},"isMocked":false,"join":0,"mockInput":{"mock_result":{}},"name":"encode_script","next":[{"do":["@@@workflow_task_id_ref1@@@"],"from":null,"id":"@@@transition_id_ref3@@@","publish":[{"key":"script_content","value":"{{ CTX.script_content|base64 }}"}],"to":null,"when":"{{ CTX.encode }}"},{"do":[],"from":null,"id":"@@@transition_id_ref4@@@","publish":[],"to":null,"when":"{{ CTX.encode is none or CTX.encode == false }}"}],"packOverrides":[],"publishResultAs":"","retry":null,"runAsOrgId":"","timeout":600,"transitionMode":"FOLLOW_ALL","with":null},{"id":"@@@workflow_task_id_ref4@@@","action":{"id":"@@@action_ref2@@@"},"humanSecondsSaved":0,"input":{},"isMocked":false,"join":0,"mockInput":{"mock_result":{}},"name":"END","next":[{"do":[],"from":null,"id":"@@@transition_id_ref5@@@","publish":[],"to":null,"when":"{{ SUCCEEDED }}"}],"packOverrides":[],"publishResultAs":"","retry":null,"runAsOrgId":"","timeout":600,"transitionMode":"FOLLOW_ALL","with":null}],"timeout":28800,"type":"STANDARD","varsSchema":{}},"nonfunctional_fields":{"description":"","name":"[Covi] Custom: Run PowerShell Script","parameters.encode.description":"Set to true to encode the script with base64 before sending it to the API.","parameters.encode.label":"Encode Script","parameters.script_content.description":"Script you wish to run in Azure Functions.","parameters.script_content.label":"Script Content","tasks[0].description":"Generic action for making authenticated requests against a custom REST API","tasks[0].metadata":{"x":296,"y":218},"tasks[0].next[0].label":"","tasks[1].description":"Action that does nothing","tasks[1].metadata":{"x":296,"y":-70},"tasks[1].next[0].label":"","tasks[2].description":"Action that does nothing","tasks[2].metadata":{"x":296,"y":74},"tasks[2].next[0].label":"Encode","tasks[2].next[1].label":"Don't Encode","tasks[3].description":"Action that does nothing","tasks[3].metadata":{"x":296,"y":362},"tasks[3].next[0].label":""},"references":{"transition_id_ref3":{"kind":"string","type":"transition_id","src_key_hash":"6BqVNxxCzE16B8EzuGmg84P5wHVRXJTsTyiCSSYgeeu4","content_hash":"Fi4hKtaxptyzSWwtD38oN1sPP34rprufAkuwE8XR3BR8","locations":["tasks[2].next[0].id"]},"action_ref2":{"kind":"string","type":"action","src_key_hash":"8YawB5a5tzEoVCy8gwBdnKLcegyzfXXRPMMra8FwFsiw","content_hash":"CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB","locations":["tasks[1].action.id","tasks[2].action.id","tasks[3].action.id"]},"workflow_task_id_ref4":{"kind":"string","type":"workflow_task_id","src_key_hash":"Gjw8dDFs8xFzas3V7btQvbh7BPf3fcYSwuijXBjyLuyN","content_hash":"Cqm33d1X4KfnpJc3zGbjHzo3avvbmu76ziBzwt62n8Bu","locations":["tasks[3].id","tasks[0].next[0].do[0]"]},"workflow_task_id_ref1":{"kind":"string","type":"workflow_task_id","src_key_hash":"3Hk6r82mPWzbzaEWd9J6CP2QYkAsLFfQpQEZBRTeB6My","content_hash":"BLCZQtHtHKbQ2JK6HtgPMybeSVsZWdyZbqAVKpZDgdZv","locations":["tasks[0].id","tasks[2].next[0].do[0]"]},"transition_id_ref4":{"kind":"string","type":"transition_id","src_key_hash":"92Zezh3GFhzBX1iCF6Qex3tohCJ4Z79suHAYxsGauTpK","content_hash":"AzQ3y3vwrCiCVUnnxpmJ81Cbu2wzY58B1UuoMJHWQhGp","locations":["tasks[2].next[1].id"]},"transition_id_ref5":{"kind":"string","type":"transition_id","src_key_hash":"974Q3uqfffts2GWGFdhh8uv8VCdLrruFHWNyNK4nSNrN","content_hash":"3VNopgGqXXJQ6QiXoXgxjyN2T8VF8swLXmREsJ2yL8Mo","locations":["tasks[3].next[0].id"]},"transition_id_ref1":{"kind":"string","type":"transition_id","src_key_hash":"5GUyQbttsFHbBvr7CwYKMCXPbBJRzuewxLKrz5HJXYmh","content_hash":"FvMTnbsehdrBGa2XzfVA8MEWKjMm52bAhc3v7aLkdkfJ","locations":["tasks[0].next[0].id"]},"transition_id_ref2":{"kind":"string","type":"transition_id","src_key_hash":"6wqJMHSLk8Jk3xWUGpBXYyW9MJHZKL88rZSyErQqmByy","content_hash":"FmtDLJrWj7SWE1pcJbXuyiS974NEYmurHfkUkYK48vaf","locations":["tasks[1].next[0].id"]},"action_ref1":{"kind":"string","type":"action","src_key_hash":"Ed9bkJfGesiDpqRtvyNP5dUA5vLuv2Coh16f9ZruEBby","content_hash":"43yEKANtUPK6radWrCaXrUAzEApBtGPN2CPHUiYqDuz2","locations":["tasks[0].action.id"]},"workflow_task_id_ref2":{"kind":"string","type":"workflow_task_id","src_key_hash":"6ct9xaoifqG41ZGRuM8JiF2c5X4JA3kLcg24P1y88VYi","content_hash":"3ne3EzgRebwBQGAcLx3NL3NZM5qfkDnseSGcaAS3QNso","locations":["tasks[1].id"]},"workflow_task_id_ref3":{"kind":"string","type":"workflow_task_id","src_key_hash":"Br3DUMFTwQHkfYqtgUgWiAnfJUk6JxaUe7eYcsCXYAe3","content_hash":"2U2tWNdZEzLW2r43YiS76pJRbENEHdJaghejam51AXzm","locations":["tasks[2].id","tasks[1].next[0].do[0]"]}},"dependencies":["workflow_task_id:6ct9xaoifqG41ZGRuM8JiF2c5X4JA3kLcg24P1y88VYi","action:Ed9bkJfGesiDpqRtvyNP5dUA5vLuv2Coh16f9ZruEBby","workflow_task_id:3Hk6r82mPWzbzaEWd9J6CP2QYkAsLFfQpQEZBRTeB6My","transition_id:974Q3uqfffts2GWGFdhh8uv8VCdLrruFHWNyNK4nSNrN","transition_id:6wqJMHSLk8Jk3xWUGpBXYyW9MJHZKL88rZSyErQqmByy","workflow_task_id:Br3DUMFTwQHkfYqtgUgWiAnfJUk6JxaUe7eYcsCXYAe3","workflow_task_id:Gjw8dDFs8xFzas3V7btQvbh7BPf3fcYSwuijXBjyLuyN","transition_id:5GUyQbttsFHbBvr7CwYKMCXPbBJRzuewxLKrz5HJXYmh","action:8YawB5a5tzEoVCy8gwBdnKLcegyzfXXRPMMra8FwFsiw","transition_id:6BqVNxxCzE16B8EzuGmg84P5wHVRXJTsTyiCSSYgeeu4","transition_id:92Zezh3GFhzBX1iCF6Qex3tohCJ4Z79suHAYxsGauTpK"]}},"__typename":"ExportBundle"}
+{
+    "version": 2,
+    "exportedAt": "2023-12-01T11:20:49.612895+00:00",
+    "signing": {
+        "cert": "-----BEGIN CERTIFICATE-----\nMIICazCCAfGgAwIBAgIUFJtHAR8D+ZfChHcAXHemH7s8zRowCgYIKoZIzj0EAwIwfDELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkZMMQ4wDAYDVQQHEwVUYW1wYTEOMAwGA1UEChMFUmV3c3QxEzARBgNVBAsTClJld3N0IERldnMxKzApBgNVBAMTImxvY2FsIFJld3N0IEltcG9ydC9FeHBvcnQgQ0EyIHYxLjEwHhcNMjIwNjAzMTkwMDU1WhcNMjUwNTIzMTkwMTI1WjBDMQswCQYDVQQGEwJVUzELMAkGA1UECBMCRkwxDjAMBgNVBAcTBVRhbXBhMRcwFQYDVQQDEw5sb2NhbC5yZXdzdC5pbzB2MBAGByqGSM49AgEGBSuBBAAiA2IABMcTJzyLIvX1+3545EJbFeNVjahxVq6TFQ7n/IYZs4yEMQzDWZjAyHhJPZk3Dxq/wFzesXMYJu41rhxfz7AZh15LtFGfy9V2B4X5KH7sGJWqOan0mabuF83llruTLA/NQaNtMGswDgYDVR0PAQH/BAQDAgeAMB0GA1UdDgQWBBTDePOSC6hckrg6usrK2giZv9GxpjAfBgNVHSMEGDAWgBTojdemsJqfnB19iyMxmIi3OGYw6TAZBgNVHREEEjAQgg5sb2NhbC5yZXdzdC5pbzAKBggqhkjOPQQDAgNoADBlAjEA8NsLnuGhfTPC7dB0ojWf5WmH64qFZuPFD6Q0RwGYO0D1Tn2x5+/37kW3HFcGHV0wAjBM7LSidsc7E9+fmcesnN5hM34eGMP+YWCoEeFIPPANXQKemAgUVf35iXyU64sVEC4=\n-----END CERTIFICATE-----",
+        "hash": "sha512",
+        "signature": "MGUCMQCZ19W2tNnK38WLK7CQ7B09vz9hIaR80g9wyYC46R7GIsTSQFBE94T2HY4FvgVVs2ECMA23uvVAJg0/Zg2BiVOcad8BPQaaJ1/xIx8qIiMGZKTElklY8I55km7IWhZjpABsXA=="
+    },
+    "objects": {
+        "action:9kpjkppvW8CxarhKuKK4qrBJCJXBt9pnLBY2g17fhDXw": {
+            "type": "action",
+            "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+            "hash": "Arr2RCEM96WqU2EkvigszSfsW9GZHa4HJC5a1fL9qZ5g",
+            "fields": {
+                "ref": "core.noop"
+            }
+        },
+        "transition_id:2sZ6BZRDXhZ2ipMs5X81Cc2Y3wMvj8ggvropd9L9anYQ": {
+            "type": "transition_id",
+            "content_hash": "AzQ3y3vwrCiCVUnnxpmJ81Cbu2wzY58B1UuoMJHWQhGp",
+            "hash": "BCGh9jDWwkKP1DgETB4F1Nox5upcjEVQjjLTtQMz5cX5",
+            "fields": {
+                "id": "cc965096-593b-42c1-bb3e-d69d7a2d398b"
+            }
+        },
+        "workflow_task_id:GRfixSXCP9dm9FZSN8uzN9EvMpHbY6pyMgAAXwmhTPsC": {
+            "type": "workflow_task_id",
+            "content_hash": "3ne3EzgRebwBQGAcLx3NL3NZM5qfkDnseSGcaAS3QNso",
+            "hash": "4sRYzRL6iTA2qSvtu7cAZKDzdLxxe9UaMriFnCadoSDv",
+            "fields": {
+                "id": "bcac96c6f3254d5489321faec4ea056f"
+            }
+        },
+        "transition_id:Bu6U2mPV5vjUTAap2sogMt8tdWYWTPnQRhvG5txHezf8": {
+            "type": "transition_id",
+            "content_hash": "Fi4hKtaxptyzSWwtD38oN1sPP34rprufAkuwE8XR3BR8",
+            "hash": "33SPNkb53SFKBQfpUoxMnwbujBD7Dh4rkVMViwGE9JEu",
+            "fields": {
+                "id": "16b01bab-e4b2-4fc5-8196-c4991f13ed3b"
+            }
+        },
+        "action:9WCtPfoA8C5xyMjK2m8zMdTrTRMfM5W1bt9UGGeAmpTw": {
+            "type": "action",
+            "content_hash": "43yEKANtUPK6radWrCaXrUAzEApBtGPN2CPHUiYqDuz2",
+            "hash": "GQRrpPbG4wH4GAtrvdbH7Bo6ije5m4LMfygjmSryUTZU",
+            "fields": {
+                "ref": "custom.generic_request"
+            }
+        },
+        "transition_id:EN45QWqqxq5i2HjKdwnkmfoHFq8Z418MZjA1EaACkZCb": {
+            "type": "transition_id",
+            "content_hash": "FmtDLJrWj7SWE1pcJbXuyiS974NEYmurHfkUkYK48vaf",
+            "hash": "J2vpZ6TJqUw6zTEhjJ5jiM8475J5MQUfMjb9hrUQg43w",
+            "fields": {
+                "id": "39da4784-3470-48c2-9945-a0eed286c671"
+            }
+        },
+        "transition_id:4xznnesbs7eFdbJ7P8ZPXxnxneGTxCiLSzrhULbhsrSx": {
+            "type": "transition_id",
+            "content_hash": "FvMTnbsehdrBGa2XzfVA8MEWKjMm52bAhc3v7aLkdkfJ",
+            "hash": "HpHwNpFtpeSV244cFZm12p9wDmMp9Rzhb3ZNwAFcSzJV",
+            "fields": {
+                "id": "d500f6c1-0c05-464e-a487-a201f23c6dd3"
+            }
+        },
+        "workflow_task_id:5vZ7qGfXU3KnEHh52SyfhRciTxw86oJ2zVEGatcnnHVt": {
+            "type": "workflow_task_id",
+            "content_hash": "Cqm33d1X4KfnpJc3zGbjHzo3avvbmu76ziBzwt62n8Bu",
+            "hash": "5MbteC5ZM5V2PmDWap5uZ9aAKDS1vKRNJRtPascteXjN",
+            "fields": {
+                "id": "e12a5145c4ef4591bf452ef70bd722e7"
+            }
+        },
+        "workflow_task_id:axrGwmyWdkeMxdXet84A8ebMcEkpGTXUNdEdVZE2fSC": {
+            "type": "workflow_task_id",
+            "content_hash": "BLCZQtHtHKbQ2JK6HtgPMybeSVsZWdyZbqAVKpZDgdZv",
+            "hash": "EjdEwp3BXHWhYvLULHNDVATXuUEzteeo92Erahbktrii",
+            "fields": {
+                "id": "846ffb530e0a4303af363e46e06e26f3"
+            }
+        },
+        "transition_id:FxWKfgq5dSWsLAi2oCGgqE1N8AaMPCi1queV9YR4ZZG9": {
+            "type": "transition_id",
+            "content_hash": "3VNopgGqXXJQ6QiXoXgxjyN2T8VF8swLXmREsJ2yL8Mo",
+            "hash": "8Tgu2zEfa896xo5pwUsFCJRtUk1ffbZexGccQkxtHBt2",
+            "fields": {
+                "id": "f7d58091-4256-4e10-9c8e-dfff39f18fc3"
+            }
+        },
+        "workflow_task_id:AKTBK1G7s148yC2QJv4KJrjUf4c2NvgMVXUgdxYSszJX": {
+            "type": "workflow_task_id",
+            "content_hash": "2U2tWNdZEzLW2r43YiS76pJRbENEHdJaghejam51AXzm",
+            "hash": "BFvR71SLzP3QUdpVXsBcujebNTfXRiG5FpL2myTiw3Sg",
+            "fields": {
+                "id": "d9dc48149e5540d9a0cfdda6debf8ce9"
+            }
+        },
+        "workflow:DFC5E2mh7DaRgdtHuA6HJWEPDGmM7hf1UDjbn6ELqLRw": {
+            "type": "workflow",
+            "content_hash": "AbBMiFeNTXsnUycm7zeayREcxs9TwHqsxzEWd7Y6vkmF",
+            "hash": "3PQMTqHSB6WbutcNuLLm2i6tBE3XvwVBQdL3UkVPL5qj",
+            "fields": {
+                "humanSecondsSaved": 0,
+                "notes": [],
+                "output": [
+                    {
+                        "result": "{{ CTX.response }}"
+                    }
+                ],
+                "parameters": {
+                    "encode": {
+                        "type": "boolean",
+                        "default": "{{ true }}",
+                        "required": true,
+                        "multiline": false
+                    },
+                    "script_content": {
+                        "type": "script",
+                        "default": "",
+                        "required": true,
+                        "multiline": false
+                    }
+                },
+                "tasks": [
+                    {
+                        "id": "@@@workflow_task_id_ref1@@@",
+                        "action": {
+                            "id": "@@@action_ref1@@@"
+                        },
+                        "humanSecondsSaved": 0,
+                        "input": {
+                            "data": "{{ CTX.script_content }}",
+                            "json": null,
+                            "method": "POST",
+                            "params": {
+                                "encoded": "{{ CTX.encode }}"
+                            },
+                            "cookies": null,
+                            "headers": {
+                                "x-functions-key": "{{ ORG.VARIABLES.rewstps_az_functions_key }}"
+                            },
+                            "raw_json": null,
+                            "url_path": "{{ ORG.VARIABLES.rewstps_az_functions_url ~ \"/api/run\" }}",
+                            "follow_redirects": true,
+                            "require_2xx_status": true
+                        },
+                        "isMocked": false,
+                        "join": 0,
+                        "mockInput": {
+                            "mock_result": {}
+                        },
+                        "name": "run_script",
+                        "next": [
+                            {
+                                "do": [
+                                    "@@@workflow_task_id_ref4@@@"
+                                ],
+                                "from": null,
+                                "id": "@@@transition_id_ref1@@@",
+                                "publish": [
+                                    {
+                                        "key": "response",
+                                        "value": "{{ RESULT.result.response }}"
+                                    }
+                                ],
+                                "to": null,
+                                "when": "{{ SUCCEEDED }}"
+                            }
+                        ],
+                        "packOverrides": [],
+                        "publishResultAs": "",
+                        "retry": null,
+                        "runAsOrgId": "",
+                        "timeout": 600,
+                        "transitionMode": "FOLLOW_ALL",
+                        "with": null
+                    },
+                    {
+                        "id": "@@@workflow_task_id_ref2@@@",
+                        "action": {
+                            "id": "@@@action_ref2@@@"
+                        },
+                        "humanSecondsSaved": 0,
+                        "input": {},
+                        "isMocked": false,
+                        "join": 0,
+                        "mockInput": {
+                            "mock_result": {}
+                        },
+                        "name": "BEGIN",
+                        "next": [
+                            {
+                                "do": [
+                                    "@@@workflow_task_id_ref3@@@"
+                                ],
+                                "from": null,
+                                "id": "@@@transition_id_ref2@@@",
+                                "publish": [],
+                                "to": null,
+                                "when": "{{ SUCCEEDED }}"
+                            }
+                        ],
+                        "packOverrides": [],
+                        "publishResultAs": "",
+                        "retry": null,
+                        "runAsOrgId": "",
+                        "timeout": 600,
+                        "transitionMode": "FOLLOW_ALL",
+                        "with": null
+                    },
+                    {
+                        "id": "@@@workflow_task_id_ref3@@@",
+                        "action": {
+                            "id": "@@@action_ref2@@@"
+                        },
+                        "humanSecondsSaved": 0,
+                        "input": {},
+                        "isMocked": false,
+                        "join": 0,
+                        "mockInput": {
+                            "mock_result": {}
+                        },
+                        "name": "encode_script",
+                        "next": [
+                            {
+                                "do": [
+                                    "@@@workflow_task_id_ref1@@@"
+                                ],
+                                "from": null,
+                                "id": "@@@transition_id_ref3@@@",
+                                "publish": [
+                                    {
+                                        "key": "script_content",
+                                        "value": "{{ CTX.script_content|base64 }}"
+                                    }
+                                ],
+                                "to": null,
+                                "when": "{{ CTX.encode }}"
+                            },
+                            {
+                                "do": [],
+                                "from": null,
+                                "id": "@@@transition_id_ref4@@@",
+                                "publish": [],
+                                "to": null,
+                                "when": "{{ CTX.encode is none or CTX.encode == false }}"
+                            }
+                        ],
+                        "packOverrides": [],
+                        "publishResultAs": "",
+                        "retry": null,
+                        "runAsOrgId": "",
+                        "timeout": 600,
+                        "transitionMode": "FOLLOW_ALL",
+                        "with": null
+                    },
+                    {
+                        "id": "@@@workflow_task_id_ref4@@@",
+                        "action": {
+                            "id": "@@@action_ref2@@@"
+                        },
+                        "humanSecondsSaved": 0,
+                        "input": {},
+                        "isMocked": false,
+                        "join": 0,
+                        "mockInput": {
+                            "mock_result": {}
+                        },
+                        "name": "END",
+                        "next": [
+                            {
+                                "do": [],
+                                "from": null,
+                                "id": "@@@transition_id_ref5@@@",
+                                "publish": [],
+                                "to": null,
+                                "when": "{{ SUCCEEDED }}"
+                            }
+                        ],
+                        "packOverrides": [],
+                        "publishResultAs": "",
+                        "retry": null,
+                        "runAsOrgId": "",
+                        "timeout": 600,
+                        "transitionMode": "FOLLOW_ALL",
+                        "with": null
+                    }
+                ],
+                "timeout": 28800,
+                "type": "STANDARD",
+                "varsSchema": {}
+            },
+            "nonfunctional_fields": {
+                "description": "",
+                "name": "Run PowerShell Script",
+                "parameters.encode.description": "Set to true to encode the script with base64 before sending it to the API.",
+                "parameters.encode.label": "Encode Script",
+                "parameters.script_content.description": "Script you wish to run in Azure Functions.",
+                "parameters.script_content.label": "Script Content",
+                "tasks[0].description": "Generic action for making authenticated requests against a custom REST API",
+                "tasks[0].metadata": {
+                    "x": 296,
+                    "y": 218
+                },
+                "tasks[0].next[0].label": "",
+                "tasks[1].description": "Action that does nothing",
+                "tasks[1].metadata": {
+                    "x": 296,
+                    "y": -70
+                },
+                "tasks[1].next[0].label": "",
+                "tasks[2].description": "Action that does nothing",
+                "tasks[2].metadata": {
+                    "x": 296,
+                    "y": 74
+                },
+                "tasks[2].next[0].label": "Encode",
+                "tasks[2].next[1].label": "Don't Encode",
+                "tasks[3].description": "Action that does nothing",
+                "tasks[3].metadata": {
+                    "x": 296,
+                    "y": 362
+                },
+                "tasks[3].next[0].label": ""
+            },
+            "references": {
+                "action_ref2": {
+                    "kind": "string",
+                    "type": "action",
+                    "src_key_hash": "9kpjkppvW8CxarhKuKK4qrBJCJXBt9pnLBY2g17fhDXw",
+                    "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+                    "locations": [
+                        "tasks[1].action.id",
+                        "tasks[2].action.id",
+                        "tasks[3].action.id"
+                    ]
+                },
+                "transition_id_ref5": {
+                    "kind": "string",
+                    "type": "transition_id",
+                    "src_key_hash": "FxWKfgq5dSWsLAi2oCGgqE1N8AaMPCi1queV9YR4ZZG9",
+                    "content_hash": "3VNopgGqXXJQ6QiXoXgxjyN2T8VF8swLXmREsJ2yL8Mo",
+                    "locations": [
+                        "tasks[3].next[0].id"
+                    ]
+                },
+                "transition_id_ref1": {
+                    "kind": "string",
+                    "type": "transition_id",
+                    "src_key_hash": "4xznnesbs7eFdbJ7P8ZPXxnxneGTxCiLSzrhULbhsrSx",
+                    "content_hash": "FvMTnbsehdrBGa2XzfVA8MEWKjMm52bAhc3v7aLkdkfJ",
+                    "locations": [
+                        "tasks[0].next[0].id"
+                    ]
+                },
+                "workflow_task_id_ref2": {
+                    "kind": "string",
+                    "type": "workflow_task_id",
+                    "src_key_hash": "GRfixSXCP9dm9FZSN8uzN9EvMpHbY6pyMgAAXwmhTPsC",
+                    "content_hash": "3ne3EzgRebwBQGAcLx3NL3NZM5qfkDnseSGcaAS3QNso",
+                    "locations": [
+                        "tasks[1].id"
+                    ]
+                },
+                "transition_id_ref4": {
+                    "kind": "string",
+                    "type": "transition_id",
+                    "src_key_hash": "2sZ6BZRDXhZ2ipMs5X81Cc2Y3wMvj8ggvropd9L9anYQ",
+                    "content_hash": "AzQ3y3vwrCiCVUnnxpmJ81Cbu2wzY58B1UuoMJHWQhGp",
+                    "locations": [
+                        "tasks[2].next[1].id"
+                    ]
+                },
+                "workflow_task_id_ref3": {
+                    "kind": "string",
+                    "type": "workflow_task_id",
+                    "src_key_hash": "AKTBK1G7s148yC2QJv4KJrjUf4c2NvgMVXUgdxYSszJX",
+                    "content_hash": "2U2tWNdZEzLW2r43YiS76pJRbENEHdJaghejam51AXzm",
+                    "locations": [
+                        "tasks[2].id",
+                        "tasks[1].next[0].do[0]"
+                    ]
+                },
+                "transition_id_ref3": {
+                    "kind": "string",
+                    "type": "transition_id",
+                    "src_key_hash": "Bu6U2mPV5vjUTAap2sogMt8tdWYWTPnQRhvG5txHezf8",
+                    "content_hash": "Fi4hKtaxptyzSWwtD38oN1sPP34rprufAkuwE8XR3BR8",
+                    "locations": [
+                        "tasks[2].next[0].id"
+                    ]
+                },
+                "transition_id_ref2": {
+                    "kind": "string",
+                    "type": "transition_id",
+                    "src_key_hash": "EN45QWqqxq5i2HjKdwnkmfoHFq8Z418MZjA1EaACkZCb",
+                    "content_hash": "FmtDLJrWj7SWE1pcJbXuyiS974NEYmurHfkUkYK48vaf",
+                    "locations": [
+                        "tasks[1].next[0].id"
+                    ]
+                },
+                "workflow_task_id_ref4": {
+                    "kind": "string",
+                    "type": "workflow_task_id",
+                    "src_key_hash": "5vZ7qGfXU3KnEHh52SyfhRciTxw86oJ2zVEGatcnnHVt",
+                    "content_hash": "Cqm33d1X4KfnpJc3zGbjHzo3avvbmu76ziBzwt62n8Bu",
+                    "locations": [
+                        "tasks[3].id",
+                        "tasks[0].next[0].do[0]"
+                    ]
+                },
+                "action_ref1": {
+                    "kind": "string",
+                    "type": "action",
+                    "src_key_hash": "9WCtPfoA8C5xyMjK2m8zMdTrTRMfM5W1bt9UGGeAmpTw",
+                    "content_hash": "43yEKANtUPK6radWrCaXrUAzEApBtGPN2CPHUiYqDuz2",
+                    "locations": [
+                        "tasks[0].action.id"
+                    ]
+                },
+                "workflow_task_id_ref1": {
+                    "kind": "string",
+                    "type": "workflow_task_id",
+                    "src_key_hash": "axrGwmyWdkeMxdXet84A8ebMcEkpGTXUNdEdVZE2fSC",
+                    "content_hash": "BLCZQtHtHKbQ2JK6HtgPMybeSVsZWdyZbqAVKpZDgdZv",
+                    "locations": [
+                        "tasks[0].id",
+                        "tasks[2].next[0].do[0]"
+                    ]
+                }
+            },
+            "dependencies": [
+                "action:9kpjkppvW8CxarhKuKK4qrBJCJXBt9pnLBY2g17fhDXw",
+                "transition_id:FxWKfgq5dSWsLAi2oCGgqE1N8AaMPCi1queV9YR4ZZG9",
+                "workflow_task_id:GRfixSXCP9dm9FZSN8uzN9EvMpHbY6pyMgAAXwmhTPsC",
+                "transition_id:Bu6U2mPV5vjUTAap2sogMt8tdWYWTPnQRhvG5txHezf8",
+                "action:9WCtPfoA8C5xyMjK2m8zMdTrTRMfM5W1bt9UGGeAmpTw",
+                "transition_id:EN45QWqqxq5i2HjKdwnkmfoHFq8Z418MZjA1EaACkZCb",
+                "transition_id:4xznnesbs7eFdbJ7P8ZPXxnxneGTxCiLSzrhULbhsrSx",
+                "workflow_task_id:5vZ7qGfXU3KnEHh52SyfhRciTxw86oJ2zVEGatcnnHVt",
+                "workflow_task_id:axrGwmyWdkeMxdXet84A8ebMcEkpGTXUNdEdVZE2fSC",
+                "transition_id:2sZ6BZRDXhZ2ipMs5X81Cc2Y3wMvj8ggvropd9L9anYQ",
+                "workflow_task_id:AKTBK1G7s148yC2QJv4KJrjUf4c2NvgMVXUgdxYSszJX"
+            ]
+        }
+    },
+    "__typename": "ExportBundle"
+}
