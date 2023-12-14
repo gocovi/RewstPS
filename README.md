@@ -5,17 +5,19 @@ Use this project and workflow to run raw PowerShell scripts directly in Azure Fu
 # Setup
 
 1. Fork this repository.
-1. Create a Function App in Azure. You'll need to name it something unique to your organization.
-
-    ![Step 1](./docs/function-app.png)
-
-    Note: I have not tested this in Windows, but I'm sure it'll work just fine.
-
+1. Create a Function App in Azure. You'll need to name it something unique to your organization. I'd recommend using PowerShell Core and Linux as your operating system.
 1. In your Function App in Azure, go to **Deployment Center** and connect it to the forked GitHub repository.
-1. In Overview, copy your URL. You'll want to use this to create a default org variable in Rewst called `rewstps_az_functions_url`. The full URL if you want to test this outside of Rewst is: https://functionappname.azurewebsites.net/api/run.function/api/run.
+1. In Overview, copy your URL. We'll use this later to setup our Custom Integration. It will look like the following: https://functionappname.azurewebsites.net/api/run.
 1. Navigate to your function app in Azure, then go to Overview. Under functions, click **ScriptRunner**.
-1. Under Function Keys, copy your default key and put it in another default org variable named `rewstps_az_functions_key`.
-1. Import the `run-powershell-script.bundle.json` file as a new workflow.
+1. Under Function Keys, copy your default key. We'll also be using this in the Custom Integration.
+1. In Rewst, navigate to Configuration > Integrations > Custom Integrations. Add a new one called "Rewst PowerShell" and match the settings below:
+
+    | Hostname                          	| API Key            	| Authentication Method 	| API Key Header Name 	|
+    |-----------------------------------	|--------------------	|-----------------------	|---------------------	|
+    | yourfunctionapp.azurewebsites.net 	| The key you copied 	| API Key               	| x-functions-key     	|
+
+1. Import the `run-powershell.bundle.json` file as a new workflow.
+1. In the `run_script` action under Advanced, you may need to add an Integration Override for your new Rewst PowerShell integration as well and then click publish.
 
 # Usage
 
