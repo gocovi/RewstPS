@@ -1,1 +1,607 @@
-{"version":2,"exportedAt":"2023-12-01T12:27:06.006081+00:00","signing":{"cert":"-----BEGIN CERTIFICATE-----\nMIICazCCAfGgAwIBAgIUFJtHAR8D+ZfChHcAXHemH7s8zRowCgYIKoZIzj0EAwIwfDELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkZMMQ4wDAYDVQQHEwVUYW1wYTEOMAwGA1UEChMFUmV3c3QxEzARBgNVBAsTClJld3N0IERldnMxKzApBgNVBAMTImxvY2FsIFJld3N0IEltcG9ydC9FeHBvcnQgQ0EyIHYxLjEwHhcNMjIwNjAzMTkwMDU1WhcNMjUwNTIzMTkwMTI1WjBDMQswCQYDVQQGEwJVUzELMAkGA1UECBMCRkwxDjAMBgNVBAcTBVRhbXBhMRcwFQYDVQQDEw5sb2NhbC5yZXdzdC5pbzB2MBAGByqGSM49AgEGBSuBBAAiA2IABMcTJzyLIvX1+3545EJbFeNVjahxVq6TFQ7n/IYZs4yEMQzDWZjAyHhJPZk3Dxq/wFzesXMYJu41rhxfz7AZh15LtFGfy9V2B4X5KH7sGJWqOan0mabuF83llruTLA/NQaNtMGswDgYDVR0PAQH/BAQDAgeAMB0GA1UdDgQWBBTDePOSC6hckrg6usrK2giZv9GxpjAfBgNVHSMEGDAWgBTojdemsJqfnB19iyMxmIi3OGYw6TAZBgNVHREEEjAQgg5sb2NhbC5yZXdzdC5pbzAKBggqhkjOPQQDAgNoADBlAjEA8NsLnuGhfTPC7dB0ojWf5WmH64qFZuPFD6Q0RwGYO0D1Tn2x5+/37kW3HFcGHV0wAjBM7LSidsc7E9+fmcesnN5hM34eGMP+YWCoEeFIPPANXQKemAgUVf35iXyU64sVEC4=\n-----END CERTIFICATE-----","hash":"sha512","signature":"MGUCMGqg4O6JdpoOq9xa9VWYYSbTUPogOWlB3pooZJ/dbCmZyghVYGmXea2y/EVPw6cPWwIxAPTH6oMDBd+15cAGTF2knMG8R8avWiNUgla4/k7oH7xI/4PmTmQvCRlHjJysD2yACQ=="},"objects":{"workflow_task_id:CYTTaE6HniRNTAqiLnm9MLAEho1pVygjgQDeg8nbynBx":{"type":"workflow_task_id","content_hash":"GjThkLj6vL79bZEFjdeVS6MQRRntQednaYNsAg9nv945","hash":"AFbpbP1xEhmFjR25GSdP9uRKVqGUAVb6UkB9xY4PcW5H","fields":{"id":"255a41096e204a09a9b6f8d51b067e53"}},"transition_id:AU55Qv6UT4uxqVLodLozYcQe5U4xouk1ptYLXgpYh58X":{"type":"transition_id","content_hash":"3RHsDqHoWe6fmvzFA4WTcEs6zCChR8KfM2q6jdM4JJMx","hash":"DjvbATywj8LTN5ciwoVdKYpXTbrQq85weTWeoSbrJBK8","fields":{"id":"769d16ce-363e-46a2-9902-102fbd5ea8fc"}},"action:HiyK72T6jFDWLq2X1bx5vBc9Pa3FcfquRvT2JfYDeUch":{"type":"action","content_hash":"CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB","hash":"Arr2RCEM96WqU2EkvigszSfsW9GZHa4HJC5a1fL9qZ5g","fields":{"ref":"core.noop"}},"transition_id:D7gTZ9vi4C3nd1FbAv4a6Z77Tq3h6o9qrp3gDE3xubXs":{"type":"transition_id","content_hash":"FKkdvsSSuM4i43fpTHK8PiG1nnmhkHLmY8ykRc8dEUAn","hash":"CHQGqWdRXBYkv315YR83PSHfnD9K6w7ADJw4hH573m6s","fields":{"id":"06569c1e-9884-7e91-8000-853dc1d5ecf2"}},"transition_id:CCwvJuceH3Jnfck4hpEyQnx26Rrf4QFBM7TzeB8R4TYM":{"type":"transition_id","content_hash":"k2UbHmPM82uD3BjfSDHbDrfjjbBcfFNDj4yKVkzTpgw","hash":"BUtts5dAUZWHFGwKbcJX545V6FaQrSqi1SMJM8Wqgjy8","fields":{"id":"06569c1e-a85d-7056-8000-9a8995af1b77"}},"action:9GoZKBkLrykuCJadaUj6X32QLLCHpA2zN6sXfas2igEN":{"type":"action","content_hash":"43yEKANtUPK6radWrCaXrUAzEApBtGPN2CPHUiYqDuz2","hash":"GQRrpPbG4wH4GAtrvdbH7Bo6ije5m4LMfygjmSryUTZU","fields":{"ref":"custom.generic_request"}},"transition_id:34FiuKUoQ6w7sTV7T1ip843vMAvGZrbVwPsyMirwHfKb":{"type":"transition_id","content_hash":"Bec8jXkAooo8HhZyUxLeUZuG7S19L1kUqdLo3fnp3Ef2","hash":"GyjsU5eQ4p6xaKsheQnCjG6xfWCi7adPMbZVNTYS5sbK","fields":{"id":"06569c1e-9884-7d4c-8000-5160f6bfc0ef"}},"workflow_task_id:6q6o2Sibfz9XrNKjQBD9cvuCx3AWEQeTST6beiuA6rw5":{"type":"workflow_task_id","content_hash":"43znENGE8PTDkAhRFoPSsVGcZ7jVxaEmLmcFQfS8rkQw","hash":"6onZevf9Afb2ouHgviiJxnafyr2WCJCACkJ7mD9oE2gH","fields":{"id":"06569c1e9e8f77cb80006e52e0644f80"}},"workflow_task_id:CnHwzYPYA9uMQQFH3B2aBzSGapjaNisexKS6B9YSW26a":{"type":"workflow_task_id","content_hash":"FFKFhVGXL1JTpKLRtLkYXyNgdj2cNVT1NNiLxEJVo9it","hash":"FdkSpwkMcPcuet6yLiEhCQswz4Z23MiVR1XTmBo9gbRY","fields":{"id":"06569c1e9e90708580002aa45b6de795"}},"workflow_task_id:HRPyyrArv5vYjjEypVmTaV5artRR74d2Uq85DD5cuQGm":{"type":"workflow_task_id","content_hash":"BkNKcX35GX3pGSi8vYAHCeRMtzHMZCnBjdSqN31dJ3Dy","hash":"4NnLFBndYPvHYwomVVWSFgsLGboEy7bwDr6WPGfx4Fac","fields":{"id":"06569c1e9e8f752180006d733abd2caf"}},"transition_id:EAx4aRYBL21t5qtMvhWY61pF3tjLNe8PHq3DBdd8PQis":{"type":"transition_id","content_hash":"ZYT77wHJviAwxVf2LLZB8rTDfGSU8iq3AK2q9S58APL","hash":"5C5W61i7eSns9ubpSubEZsMJBAC8NbyUFKMMXL7jpViP","fields":{"id":"06569c1e-9884-7678-8000-c1e7ba363499"}},"transition_id:GmieEUyRVpysuEoLFv1QxbJcZWmLoEt8fHVoa2PraX9s":{"type":"transition_id","content_hash":"EAFQLTAhAMz6JeQXVUpQS6QcgZ73tpG6okE1e1wq1GiA","hash":"2S3KC2SkxjRLYnEqPCFtTwbwigQic7Lawa8i7Ps9Fjkq","fields":{"id":"06569c1e-9884-7bcd-8000-767b2648a625"}},"workflow_task_id:ASu1DXFtkDsKwSb6EQwNZLhP645xJe3dtFT3boDDtCmQ":{"type":"workflow_task_id","content_hash":"89rNtdvQg1SVFbCqunD5jxjcDFiWAhCby7dPv2iPkaLa","hash":"GDsGNHDvnZwY8E5VFADBWCD7BntSrJLB4F8nn2iyYBJ5","fields":{"id":"06569c1e9e8f794880005ca70bb227ec"}},"template:Edb6GChLzALNC4HCUWr4ZsG4rB9vQcWpuwCTwT5nVF9G":{"type":"template","content_hash":"5fUn64DyanED5EfE8e7M6f8rTmxVuSxgaMcoQDbdZyC8","hash":"3SqQEFyuvbZEdbMa9HyCdQd1EoM8ESTLbugvfVdrjy5b","fields":{"body":"$ApplicationID = \"{{ ORG.VARIABLES.avanan_app_id }}\"\n$ApplicationSecret = \"{{ ORG.VARIABLES.avanan_app_secret }}\"\n\n$Method = \"{{ CTX.method }}\"\n$Path = \"{{ CTX.url_path }}\"\n$Body = '{{ CTX.body }}'\n\nfunction New-AvananSignature {\n    [CmdletBinding()]\n    param (\n        [Parameter(Mandatory = $true)]\n        [string]\n        $RequestID,\n\n        [Parameter(Mandatory = $true, HelpMessage = \"Must be the same for every request.\")]\n        [string]\n        $RequestDate,\n\n        [Parameter()]\n        [string]\n        $RequestText = \"\"\n    )\n\n    # Calculating the signature\n    $Request = $RequestID, $ApplicationID, $RequestDate, $RequestText, $ApplicationSecret -join \"\"\n    $Base64Signature = [System.Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes($Request))\n    $Hash = [System.Security.Cryptography.HashAlgorithm]::Create('sha256').ComputeHash([System.Text.Encoding]::UTF8.GetBytes($Base64Signature))\n\n    ([System.BitConverter]::ToString($Hash).Replace('-', '').ToLower())\n}\n\nfunction New-AvananAuthorization {\n    $RequestID = (New-Guid).Guid\n    $RequestDate = (Get-Date).ToUniversalTime().ToString(\"yyyy-MM-ddTHH:mm:ss\")\n\n    $Signature = New-AvananSignature -RequestID $RequestID -RequestDate $RequestDate\n\n    $Params = @{\n        Headers = @{\n            \"Accept\"      = \"application/json\";\n            \"x-av-req-id\" = $RequestID;\n            \"x-av-token\"  = \"\";\n            \"x-av-app-id\" = $ApplicationID;\n            \"x-av-date\"   = $RequestDate;\n            \"x-av-sig\"    = $Signature;\n        };\n        Uri     = \"https://smart-api-production-1-us.avanan.net/v1.0/auth\";\n    }\n\n    (Invoke-RestMethod @Params)\n}\n\nfunction Invoke-AvananRestMethod {\n    [CmdletBinding()]\n    param (\n        [Parameter(\n            HelpMessage = \"The path to the resource. Defaults to /v1.0/auth if not specified. Example: /v1.0/tenants\"\n        )]\n        [string]\n        $Path = \"/v1.0/auth\",\n\n        # Parameter that allows GET, POST, PUT, DELETE, PATCH.\n        [Parameter()]\n        [ValidateSet(\"GET\", \"POST\", \"PUT\", \"DELETE\", \"PATCH\")]\n        [string]\n        $Method = \"GET\",\n\n        [Parameter(Mandatory = $true)]\n        [string]\n        $Token\n    )\n\n    if (!$Token -and $Path -ne \"/v1.0/auth\") {\n        throw \"You must provide a token if you're not using the /v1.0/auth endpoint.\"\n    }\n\n    $RequestID = (New-Guid).Guid\n    $RequestDate = (Get-Date).ToUniversalTime().ToString(\"yyyy-MM-ddTHH:mm:ss\")\n\n    $Signature = New-AvananSignature -RequestID $RequestID -RequestDate $RequestDate -RequestText $Path\n\n    $Params = @{\n        Headers = @{\n            \"Accept\"      = \"application/json\";\n            \"x-av-req-id\" = $RequestID;\n            \"x-av-token\"  = $Token;\n            \"x-av-app-id\" = $ApplicationID;\n            \"x-av-date\"   = $RequestDate;\n            \"x-av-sig\"    = $Signature;\n        };\n        Method  = $Method;\n        Uri     = \"https://smart-api-production-1-us.avanan.net$Path\";\n    }\n\n    (Invoke-RestMethod @Params)\n}\n\n$Token = New-AvananAuthorization\n\n$Params = @{\n    Path   = $Path;\n    Token  = $Token;\n    Method = $Method;\n}\n\nif ($Method -ne \"GET\" -and $Body) {\n    # Add body to params\n    $Params.Add(\"Body\", $Body)\n}\n\nInvoke-AvananRestMethod @Params","contentType":"script","language":"powershell"},"nonfunctional_fields":{"description":"Invoke the Avanan Rest API with PowerShell. Request the following context variables: method, url_path, body (can be blank).","name":"Invoke-AvananRestMethod"}},"workflow:6iQk3cxmwuNE2d429VsvQQFZFkBus32xAkgGRtJo6J2D":{"type":"workflow","content_hash":"HXz6AMDoRJhxpF5gjuS89KwkKELhVh85sS9GQbvLMqEH","hash":"2vPWH2da9ffa7wKuSPkJXJ9MtvTMrqJ6gfYGgfbnyxnh","fields":{"humanSecondsSaved":0,"notes":[],"output":[],"parameters":{"body":{"type":"string","default":"","required":false,"multiline":false},"method":{"type":"string","default":"{{ \"GET\" }}","required":true,"multiline":false},"url_path":{"type":"string","default":"{{ \"/v1.0/msp/tenants\" }}","required":true,"multiline":false}},"tasks":[{"id":"@@@workflow_task_id_ref1@@@","action":{"workflow_id":"@@@workflow_ref1@@@"},"humanSecondsSaved":0,"input":{"encode":true,"script_content":"{{ template(\"@@@template_ref1@@@\") }}"},"isMocked":false,"join":0,"mockInput":{"mock_result":{}},"name":"invoke_avanan_api","next":[{"do":[],"from":null,"id":"@@@transition_id_ref1@@@","publish":[],"to":null,"when":"{{ SUCCEEDED }}"}],"packOverrides":[],"publishResultAs":"","retry":null,"runAsOrgId":"","timeout":600,"transitionMode":"FOLLOW_ALL","with":null}],"timeout":28800,"type":"STANDARD","varsSchema":{}},"nonfunctional_fields":{"description":"","name":"Avanan REST API","parameters.body.description":"","parameters.body.label":"JSON Body","parameters.method.description":"GET, POST, PUT, DELETE, PATCH","parameters.method.label":"HTTP Method","parameters.url_path.description":"Example: /v1.0/msp/tenants","parameters.url_path.label":"URL Path","tasks[0].description":"","tasks[0].metadata":{"x":840,"y":288},"tasks[0].next[0].label":""},"references":{"workflow_task_id_ref1":{"kind":"string","type":"workflow_task_id","src_key_hash":"CYTTaE6HniRNTAqiLnm9MLAEho1pVygjgQDeg8nbynBx","content_hash":"GjThkLj6vL79bZEFjdeVS6MQRRntQednaYNsAg9nv945","locations":["tasks[0].id"]},"workflow_ref1":{"kind":"string","type":"workflow","src_key_hash":"5QSaqVt3uesgXwuBAZuvbvjwYayDTrtXwErmJeu8p7Mo","content_hash":"9MbbcFdVSDcEvjE3T9ZEqupfJYGZEZmuN3k5zUruHyU2","locations":["tasks[0].action.workflow_id"]},"template_ref1":{"kind":"string","type":"template","src_key_hash":"Edb6GChLzALNC4HCUWr4ZsG4rB9vQcWpuwCTwT5nVF9G","content_hash":"5fUn64DyanED5EfE8e7M6f8rTmxVuSxgaMcoQDbdZyC8","locations":["tasks[0].input.script_content"]},"transition_id_ref1":{"kind":"string","type":"transition_id","src_key_hash":"AU55Qv6UT4uxqVLodLozYcQe5U4xouk1ptYLXgpYh58X","content_hash":"3RHsDqHoWe6fmvzFA4WTcEs6zCChR8KfM2q6jdM4JJMx","locations":["tasks[0].next[0].id"]}},"dependencies":["workflow_task_id:CYTTaE6HniRNTAqiLnm9MLAEho1pVygjgQDeg8nbynBx","transition_id:AU55Qv6UT4uxqVLodLozYcQe5U4xouk1ptYLXgpYh58X","workflow:5QSaqVt3uesgXwuBAZuvbvjwYayDTrtXwErmJeu8p7Mo","template:Edb6GChLzALNC4HCUWr4ZsG4rB9vQcWpuwCTwT5nVF9G"]},"workflow:5QSaqVt3uesgXwuBAZuvbvjwYayDTrtXwErmJeu8p7Mo":{"type":"workflow","content_hash":"9MbbcFdVSDcEvjE3T9ZEqupfJYGZEZmuN3k5zUruHyU2","hash":"A3JXnF5jUh8opReBG9Fpj2CdwAFoP6d826QmdT2EwT1K","fields":{"humanSecondsSaved":0,"notes":[],"output":[{"result":"{{ CTX.response }}"}],"parameters":{"encode":{"type":"boolean","default":"{{ true }}","required":true,"multiline":false},"script_content":{"type":"script","default":"","required":true,"multiline":false}},"tasks":[{"id":"@@@workflow_task_id_ref1@@@","action":{"id":"@@@action_ref1@@@"},"humanSecondsSaved":0,"input":{},"isMocked":false,"join":0,"mockInput":{"mock_result":{}},"name":"END","next":[{"do":[],"from":null,"id":"@@@transition_id_ref1@@@","publish":[],"to":null,"when":"{{ SUCCEEDED }}"}],"packOverrides":[],"publishResultAs":"","retry":null,"runAsOrgId":"","timeout":600,"transitionMode":"FOLLOW_ALL","with":null},{"id":"@@@workflow_task_id_ref2@@@","action":{"id":"@@@action_ref1@@@"},"humanSecondsSaved":0,"input":{},"isMocked":false,"join":0,"mockInput":{"mock_result":{}},"name":"encode_script","next":[{"do":["@@@workflow_task_id_ref3@@@"],"from":null,"id":"@@@transition_id_ref2@@@","publish":[{"key":"script_content","value":"{{ CTX.script_content|base64 }}"}],"to":null,"when":"{{ CTX.encode }}"},{"do":[],"from":null,"id":"@@@transition_id_ref3@@@","publish":[],"to":null,"when":"{{ CTX.encode is none or CTX.encode == false }}"}],"packOverrides":[],"publishResultAs":"","retry":null,"runAsOrgId":"","timeout":600,"transitionMode":"FOLLOW_ALL","with":null},{"id":"@@@workflow_task_id_ref3@@@","action":{"id":"@@@action_ref2@@@"},"humanSecondsSaved":0,"input":{"data":"{{ CTX.script_content }}","json":null,"method":"POST","params":{"encoded":"{{ CTX.encode }}"},"cookies":null,"headers":{"x-functions-key":"{{ ORG.VARIABLES.rewstps_az_functions_key }}"},"raw_json":null,"url_path":"{{ ORG.VARIABLES.rewstps_az_functions_url ~ \"/api/run\" }}","follow_redirects":true,"require_2xx_status":true},"isMocked":false,"join":0,"mockInput":{"mock_result":{}},"name":"run_script","next":[{"do":["@@@workflow_task_id_ref1@@@"],"from":null,"id":"@@@transition_id_ref4@@@","publish":[{"key":"response","value":"{{ RESULT.result.response }}"}],"to":null,"when":"{{ SUCCEEDED }}"}],"packOverrides":[],"publishResultAs":"","retry":null,"runAsOrgId":"","timeout":600,"transitionMode":"FOLLOW_ALL","with":null},{"id":"@@@workflow_task_id_ref4@@@","action":{"id":"@@@action_ref1@@@"},"humanSecondsSaved":0,"input":{},"isMocked":false,"join":0,"mockInput":{"mock_result":{}},"name":"BEGIN","next":[{"do":["@@@workflow_task_id_ref2@@@"],"from":null,"id":"@@@transition_id_ref5@@@","publish":[],"to":null,"when":"{{ SUCCEEDED }}"}],"packOverrides":[],"publishResultAs":"","retry":null,"runAsOrgId":"","timeout":600,"transitionMode":"FOLLOW_ALL","with":null}],"timeout":28800,"type":"STANDARD","varsSchema":{}},"nonfunctional_fields":{"description":"","name":"Run PowerShell Script","parameters.encode.description":"Set to true to encode the script with base64 before sending it to the API.","parameters.encode.label":"Encode Script","parameters.script_content.description":"Script you wish to run in Azure Functions.","parameters.script_content.label":"Script Content","tasks[0].description":"Action that does nothing","tasks[0].metadata":{"x":296,"y":362},"tasks[0].next[0].label":"","tasks[1].description":"Action that does nothing","tasks[1].metadata":{"x":296,"y":74},"tasks[1].next[0].label":"Encode","tasks[1].next[1].label":"Don't Encode","tasks[2].description":"Generic action for making authenticated requests against a custom REST API","tasks[2].metadata":{"x":296,"y":218},"tasks[2].next[0].label":"","tasks[3].description":"Action that does nothing","tasks[3].metadata":{"x":296,"y":-70},"tasks[3].next[0].label":""},"references":{"workflow_task_id_ref4":{"kind":"string","type":"workflow_task_id","src_key_hash":"CnHwzYPYA9uMQQFH3B2aBzSGapjaNisexKS6B9YSW26a","content_hash":"FFKFhVGXL1JTpKLRtLkYXyNgdj2cNVT1NNiLxEJVo9it","locations":["tasks[3].id"]},"transition_id_ref5":{"kind":"string","type":"transition_id","src_key_hash":"CCwvJuceH3Jnfck4hpEyQnx26Rrf4QFBM7TzeB8R4TYM","content_hash":"k2UbHmPM82uD3BjfSDHbDrfjjbBcfFNDj4yKVkzTpgw","locations":["tasks[3].next[0].id"]},"action_ref2":{"kind":"string","type":"action","src_key_hash":"9GoZKBkLrykuCJadaUj6X32QLLCHpA2zN6sXfas2igEN","content_hash":"43yEKANtUPK6radWrCaXrUAzEApBtGPN2CPHUiYqDuz2","locations":["tasks[2].action.id"]},"workflow_task_id_ref1":{"kind":"string","type":"workflow_task_id","src_key_hash":"HRPyyrArv5vYjjEypVmTaV5artRR74d2Uq85DD5cuQGm","content_hash":"BkNKcX35GX3pGSi8vYAHCeRMtzHMZCnBjdSqN31dJ3Dy","locations":["tasks[0].id","tasks[2].next[0].do[0]"]},"transition_id_ref4":{"kind":"string","type":"transition_id","src_key_hash":"EAx4aRYBL21t5qtMvhWY61pF3tjLNe8PHq3DBdd8PQis","content_hash":"ZYT77wHJviAwxVf2LLZB8rTDfGSU8iq3AK2q9S58APL","locations":["tasks[2].next[0].id"]},"transition_id_ref3":{"kind":"string","type":"transition_id","src_key_hash":"GmieEUyRVpysuEoLFv1QxbJcZWmLoEt8fHVoa2PraX9s","content_hash":"EAFQLTAhAMz6JeQXVUpQS6QcgZ73tpG6okE1e1wq1GiA","locations":["tasks[1].next[1].id"]},"transition_id_ref1":{"kind":"string","type":"transition_id","src_key_hash":"34FiuKUoQ6w7sTV7T1ip843vMAvGZrbVwPsyMirwHfKb","content_hash":"Bec8jXkAooo8HhZyUxLeUZuG7S19L1kUqdLo3fnp3Ef2","locations":["tasks[0].next[0].id"]},"workflow_task_id_ref2":{"kind":"string","type":"workflow_task_id","src_key_hash":"6q6o2Sibfz9XrNKjQBD9cvuCx3AWEQeTST6beiuA6rw5","content_hash":"43znENGE8PTDkAhRFoPSsVGcZ7jVxaEmLmcFQfS8rkQw","locations":["tasks[1].id","tasks[3].next[0].do[0]"]},"workflow_task_id_ref3":{"kind":"string","type":"workflow_task_id","src_key_hash":"ASu1DXFtkDsKwSb6EQwNZLhP645xJe3dtFT3boDDtCmQ","content_hash":"89rNtdvQg1SVFbCqunD5jxjcDFiWAhCby7dPv2iPkaLa","locations":["tasks[2].id","tasks[1].next[0].do[0]"]},"action_ref1":{"kind":"string","type":"action","src_key_hash":"HiyK72T6jFDWLq2X1bx5vBc9Pa3FcfquRvT2JfYDeUch","content_hash":"CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB","locations":["tasks[0].action.id","tasks[1].action.id","tasks[3].action.id"]},"transition_id_ref2":{"kind":"string","type":"transition_id","src_key_hash":"D7gTZ9vi4C3nd1FbAv4a6Z77Tq3h6o9qrp3gDE3xubXs","content_hash":"FKkdvsSSuM4i43fpTHK8PiG1nnmhkHLmY8ykRc8dEUAn","locations":["tasks[1].next[0].id"]}},"dependencies":["transition_id:CCwvJuceH3Jnfck4hpEyQnx26Rrf4QFBM7TzeB8R4TYM","action:HiyK72T6jFDWLq2X1bx5vBc9Pa3FcfquRvT2JfYDeUch","transition_id:D7gTZ9vi4C3nd1FbAv4a6Z77Tq3h6o9qrp3gDE3xubXs","transition_id:34FiuKUoQ6w7sTV7T1ip843vMAvGZrbVwPsyMirwHfKb","workflow_task_id:6q6o2Sibfz9XrNKjQBD9cvuCx3AWEQeTST6beiuA6rw5","workflow_task_id:ASu1DXFtkDsKwSb6EQwNZLhP645xJe3dtFT3boDDtCmQ","transition_id:EAx4aRYBL21t5qtMvhWY61pF3tjLNe8PHq3DBdd8PQis","workflow_task_id:HRPyyrArv5vYjjEypVmTaV5artRR74d2Uq85DD5cuQGm","workflow_task_id:CnHwzYPYA9uMQQFH3B2aBzSGapjaNisexKS6B9YSW26a","transition_id:GmieEUyRVpysuEoLFv1QxbJcZWmLoEt8fHVoa2PraX9s","action:9GoZKBkLrykuCJadaUj6X32QLLCHpA2zN6sXfas2igEN"]}},"__typename":"ExportBundle"}
+{
+    "version": 2,
+    "exportedAt": "2023-12-01T12:27:06.006081+00:00",
+    "signing": {
+        "cert": "-----BEGIN CERTIFICATE-----\nMIICazCCAfGgAwIBAgIUFJtHAR8D+ZfChHcAXHemH7s8zRowCgYIKoZIzj0EAwIwfDELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkZMMQ4wDAYDVQQHEwVUYW1wYTEOMAwGA1UEChMFUmV3c3QxEzARBgNVBAsTClJld3N0IERldnMxKzApBgNVBAMTImxvY2FsIFJld3N0IEltcG9ydC9FeHBvcnQgQ0EyIHYxLjEwHhcNMjIwNjAzMTkwMDU1WhcNMjUwNTIzMTkwMTI1WjBDMQswCQYDVQQGEwJVUzELMAkGA1UECBMCRkwxDjAMBgNVBAcTBVRhbXBhMRcwFQYDVQQDEw5sb2NhbC5yZXdzdC5pbzB2MBAGByqGSM49AgEGBSuBBAAiA2IABMcTJzyLIvX1+3545EJbFeNVjahxVq6TFQ7n/IYZs4yEMQzDWZjAyHhJPZk3Dxq/wFzesXMYJu41rhxfz7AZh15LtFGfy9V2B4X5KH7sGJWqOan0mabuF83llruTLA/NQaNtMGswDgYDVR0PAQH/BAQDAgeAMB0GA1UdDgQWBBTDePOSC6hckrg6usrK2giZv9GxpjAfBgNVHSMEGDAWgBTojdemsJqfnB19iyMxmIi3OGYw6TAZBgNVHREEEjAQgg5sb2NhbC5yZXdzdC5pbzAKBggqhkjOPQQDAgNoADBlAjEA8NsLnuGhfTPC7dB0ojWf5WmH64qFZuPFD6Q0RwGYO0D1Tn2x5+/37kW3HFcGHV0wAjBM7LSidsc7E9+fmcesnN5hM34eGMP+YWCoEeFIPPANXQKemAgUVf35iXyU64sVEC4=\n-----END CERTIFICATE-----",
+        "hash": "sha512",
+        "signature": "MGUCMGqg4O6JdpoOq9xa9VWYYSbTUPogOWlB3pooZJ/dbCmZyghVYGmXea2y/EVPw6cPWwIxAPTH6oMDBd+15cAGTF2knMG8R8avWiNUgla4/k7oH7xI/4PmTmQvCRlHjJysD2yACQ=="
+    },
+    "objects": {
+        "workflow_task_id:CYTTaE6HniRNTAqiLnm9MLAEho1pVygjgQDeg8nbynBx": {
+            "type": "workflow_task_id",
+            "content_hash": "GjThkLj6vL79bZEFjdeVS6MQRRntQednaYNsAg9nv945",
+            "hash": "AFbpbP1xEhmFjR25GSdP9uRKVqGUAVb6UkB9xY4PcW5H",
+            "fields": {
+                "id": "255a41096e204a09a9b6f8d51b067e53"
+            }
+        },
+        "transition_id:AU55Qv6UT4uxqVLodLozYcQe5U4xouk1ptYLXgpYh58X": {
+            "type": "transition_id",
+            "content_hash": "3RHsDqHoWe6fmvzFA4WTcEs6zCChR8KfM2q6jdM4JJMx",
+            "hash": "DjvbATywj8LTN5ciwoVdKYpXTbrQq85weTWeoSbrJBK8",
+            "fields": {
+                "id": "769d16ce-363e-46a2-9902-102fbd5ea8fc"
+            }
+        },
+        "action:HiyK72T6jFDWLq2X1bx5vBc9Pa3FcfquRvT2JfYDeUch": {
+            "type": "action",
+            "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+            "hash": "Arr2RCEM96WqU2EkvigszSfsW9GZHa4HJC5a1fL9qZ5g",
+            "fields": {
+                "ref": "core.noop"
+            }
+        },
+        "transition_id:D7gTZ9vi4C3nd1FbAv4a6Z77Tq3h6o9qrp3gDE3xubXs": {
+            "type": "transition_id",
+            "content_hash": "FKkdvsSSuM4i43fpTHK8PiG1nnmhkHLmY8ykRc8dEUAn",
+            "hash": "CHQGqWdRXBYkv315YR83PSHfnD9K6w7ADJw4hH573m6s",
+            "fields": {
+                "id": "06569c1e-9884-7e91-8000-853dc1d5ecf2"
+            }
+        },
+        "transition_id:CCwvJuceH3Jnfck4hpEyQnx26Rrf4QFBM7TzeB8R4TYM": {
+            "type": "transition_id",
+            "content_hash": "k2UbHmPM82uD3BjfSDHbDrfjjbBcfFNDj4yKVkzTpgw",
+            "hash": "BUtts5dAUZWHFGwKbcJX545V6FaQrSqi1SMJM8Wqgjy8",
+            "fields": {
+                "id": "06569c1e-a85d-7056-8000-9a8995af1b77"
+            }
+        },
+        "action:9GoZKBkLrykuCJadaUj6X32QLLCHpA2zN6sXfas2igEN": {
+            "type": "action",
+            "content_hash": "43yEKANtUPK6radWrCaXrUAzEApBtGPN2CPHUiYqDuz2",
+            "hash": "GQRrpPbG4wH4GAtrvdbH7Bo6ije5m4LMfygjmSryUTZU",
+            "fields": {
+                "ref": "custom.generic_request"
+            }
+        },
+        "transition_id:34FiuKUoQ6w7sTV7T1ip843vMAvGZrbVwPsyMirwHfKb": {
+            "type": "transition_id",
+            "content_hash": "Bec8jXkAooo8HhZyUxLeUZuG7S19L1kUqdLo3fnp3Ef2",
+            "hash": "GyjsU5eQ4p6xaKsheQnCjG6xfWCi7adPMbZVNTYS5sbK",
+            "fields": {
+                "id": "06569c1e-9884-7d4c-8000-5160f6bfc0ef"
+            }
+        },
+        "workflow_task_id:6q6o2Sibfz9XrNKjQBD9cvuCx3AWEQeTST6beiuA6rw5": {
+            "type": "workflow_task_id",
+            "content_hash": "43znENGE8PTDkAhRFoPSsVGcZ7jVxaEmLmcFQfS8rkQw",
+            "hash": "6onZevf9Afb2ouHgviiJxnafyr2WCJCACkJ7mD9oE2gH",
+            "fields": {
+                "id": "06569c1e9e8f77cb80006e52e0644f80"
+            }
+        },
+        "workflow_task_id:CnHwzYPYA9uMQQFH3B2aBzSGapjaNisexKS6B9YSW26a": {
+            "type": "workflow_task_id",
+            "content_hash": "FFKFhVGXL1JTpKLRtLkYXyNgdj2cNVT1NNiLxEJVo9it",
+            "hash": "FdkSpwkMcPcuet6yLiEhCQswz4Z23MiVR1XTmBo9gbRY",
+            "fields": {
+                "id": "06569c1e9e90708580002aa45b6de795"
+            }
+        },
+        "workflow_task_id:HRPyyrArv5vYjjEypVmTaV5artRR74d2Uq85DD5cuQGm": {
+            "type": "workflow_task_id",
+            "content_hash": "BkNKcX35GX3pGSi8vYAHCeRMtzHMZCnBjdSqN31dJ3Dy",
+            "hash": "4NnLFBndYPvHYwomVVWSFgsLGboEy7bwDr6WPGfx4Fac",
+            "fields": {
+                "id": "06569c1e9e8f752180006d733abd2caf"
+            }
+        },
+        "transition_id:EAx4aRYBL21t5qtMvhWY61pF3tjLNe8PHq3DBdd8PQis": {
+            "type": "transition_id",
+            "content_hash": "ZYT77wHJviAwxVf2LLZB8rTDfGSU8iq3AK2q9S58APL",
+            "hash": "5C5W61i7eSns9ubpSubEZsMJBAC8NbyUFKMMXL7jpViP",
+            "fields": {
+                "id": "06569c1e-9884-7678-8000-c1e7ba363499"
+            }
+        },
+        "transition_id:GmieEUyRVpysuEoLFv1QxbJcZWmLoEt8fHVoa2PraX9s": {
+            "type": "transition_id",
+            "content_hash": "EAFQLTAhAMz6JeQXVUpQS6QcgZ73tpG6okE1e1wq1GiA",
+            "hash": "2S3KC2SkxjRLYnEqPCFtTwbwigQic7Lawa8i7Ps9Fjkq",
+            "fields": {
+                "id": "06569c1e-9884-7bcd-8000-767b2648a625"
+            }
+        },
+        "workflow_task_id:ASu1DXFtkDsKwSb6EQwNZLhP645xJe3dtFT3boDDtCmQ": {
+            "type": "workflow_task_id",
+            "content_hash": "89rNtdvQg1SVFbCqunD5jxjcDFiWAhCby7dPv2iPkaLa",
+            "hash": "GDsGNHDvnZwY8E5VFADBWCD7BntSrJLB4F8nn2iyYBJ5",
+            "fields": {
+                "id": "06569c1e9e8f794880005ca70bb227ec"
+            }
+        },
+        "template:Edb6GChLzALNC4HCUWr4ZsG4rB9vQcWpuwCTwT5nVF9G": {
+            "type": "template",
+            "content_hash": "5fUn64DyanED5EfE8e7M6f8rTmxVuSxgaMcoQDbdZyC8",
+            "hash": "3SqQEFyuvbZEdbMa9HyCdQd1EoM8ESTLbugvfVdrjy5b",
+            "fields": {
+                "body": "$ApplicationID = \"{{ ORG.VARIABLES.avanan_app_id }}\"\n$ApplicationSecret = \"{{ ORG.VARIABLES.avanan_app_secret }}\"\n\n$Method = \"{{ CTX.method }}\"\n$Path = \"{{ CTX.url_path }}\"\n$Body = '{{ CTX.body }}'\n\nfunction New-AvananSignature {\n    [CmdletBinding()]\n    param (\n        [Parameter(Mandatory = $true)]\n        [string]\n        $RequestID,\n\n        [Parameter(Mandatory = $true, HelpMessage = \"Must be the same for every request.\")]\n        [string]\n        $RequestDate,\n\n        [Parameter()]\n        [string]\n        $RequestText = \"\"\n    )\n\n    # Calculating the signature\n    $Request = $RequestID, $ApplicationID, $RequestDate, $RequestText, $ApplicationSecret -join \"\"\n    $Base64Signature = [System.Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes($Request))\n    $Hash = [System.Security.Cryptography.HashAlgorithm]::Create('sha256').ComputeHash([System.Text.Encoding]::UTF8.GetBytes($Base64Signature))\n\n    ([System.BitConverter]::ToString($Hash).Replace('-', '').ToLower())\n}\n\nfunction New-AvananAuthorization {\n    $RequestID = (New-Guid).Guid\n    $RequestDate = (Get-Date).ToUniversalTime().ToString(\"yyyy-MM-ddTHH:mm:ss\")\n\n    $Signature = New-AvananSignature -RequestID $RequestID -RequestDate $RequestDate\n\n    $Params = @{\n        Headers = @{\n            \"Accept\"      = \"application/json\";\n            \"x-av-req-id\" = $RequestID;\n            \"x-av-token\"  = \"\";\n            \"x-av-app-id\" = $ApplicationID;\n            \"x-av-date\"   = $RequestDate;\n            \"x-av-sig\"    = $Signature;\n        };\n        Uri     = \"https://smart-api-production-1-us.avanan.net/v1.0/auth\";\n    }\n\n    (Invoke-RestMethod @Params)\n}\n\nfunction Invoke-AvananRestMethod {\n    [CmdletBinding()]\n    param (\n        [Parameter(\n            HelpMessage = \"The path to the resource. Defaults to /v1.0/auth if not specified. Example: /v1.0/tenants\"\n        )]\n        [string]\n        $Path = \"/v1.0/auth\",\n\n        # Parameter that allows GET, POST, PUT, DELETE, PATCH.\n        [Parameter()]\n        [ValidateSet(\"GET\", \"POST\", \"PUT\", \"DELETE\", \"PATCH\")]\n        [string]\n        $Method = \"GET\",\n\n        [Parameter(Mandatory = $true)]\n        [string]\n        $Token\n    )\n\n    if (!$Token -and $Path -ne \"/v1.0/auth\") {\n        throw \"You must provide a token if you're not using the /v1.0/auth endpoint.\"\n    }\n\n    $RequestID = (New-Guid).Guid\n    $RequestDate = (Get-Date).ToUniversalTime().ToString(\"yyyy-MM-ddTHH:mm:ss\")\n\n    $Signature = New-AvananSignature -RequestID $RequestID -RequestDate $RequestDate -RequestText $Path\n\n    $Params = @{\n        Headers = @{\n            \"Accept\"      = \"application/json\";\n            \"x-av-req-id\" = $RequestID;\n            \"x-av-token\"  = $Token;\n            \"x-av-app-id\" = $ApplicationID;\n            \"x-av-date\"   = $RequestDate;\n            \"x-av-sig\"    = $Signature;\n        };\n        Method  = $Method;\n        Uri     = \"https://smart-api-production-1-us.avanan.net$Path\";\n    }\n\n    (Invoke-RestMethod @Params)\n}\n\n$Token = New-AvananAuthorization\n\n$Params = @{\n    Path   = $Path;\n    Token  = $Token;\n    Method = $Method;\n}\n\nif ($Method -ne \"GET\" -and $Body) {\n    # Add body to params\n    $Params.Add(\"Body\", $Body)\n}\n\nInvoke-AvananRestMethod @Params",
+                "contentType": "script",
+                "language": "powershell"
+            },
+            "nonfunctional_fields": {
+                "description": "Invoke the Avanan Rest API with PowerShell. Request the following context variables: method, url_path, body (can be blank).",
+                "name": "Invoke-AvananRestMethod"
+            }
+        },
+        "workflow:6iQk3cxmwuNE2d429VsvQQFZFkBus32xAkgGRtJo6J2D": {
+            "type": "workflow",
+            "content_hash": "HXz6AMDoRJhxpF5gjuS89KwkKELhVh85sS9GQbvLMqEH",
+            "hash": "2vPWH2da9ffa7wKuSPkJXJ9MtvTMrqJ6gfYGgfbnyxnh",
+            "fields": {
+                "humanSecondsSaved": 0,
+                "notes": [],
+                "output": [],
+                "parameters": {
+                    "body": {
+                        "type": "string",
+                        "default": "",
+                        "required": false,
+                        "multiline": false
+                    },
+                    "method": {
+                        "type": "string",
+                        "default": "{{ \"GET\" }}",
+                        "required": true,
+                        "multiline": false
+                    },
+                    "url_path": {
+                        "type": "string",
+                        "default": "{{ \"/v1.0/msp/tenants\" }}",
+                        "required": true,
+                        "multiline": false
+                    }
+                },
+                "tasks": [
+                    {
+                        "id": "@@@workflow_task_id_ref1@@@",
+                        "action": {
+                            "workflow_id": "@@@workflow_ref1@@@"
+                        },
+                        "humanSecondsSaved": 0,
+                        "input": {
+                            "encode": true,
+                            "script_content": "{{ template(\"@@@template_ref1@@@\") }}"
+                        },
+                        "isMocked": false,
+                        "join": 0,
+                        "mockInput": {
+                            "mock_result": {}
+                        },
+                        "name": "invoke_avanan_api",
+                        "next": [
+                            {
+                                "do": [],
+                                "from": null,
+                                "id": "@@@transition_id_ref1@@@",
+                                "publish": [],
+                                "to": null,
+                                "when": "{{ SUCCEEDED }}"
+                            }
+                        ],
+                        "packOverrides": [],
+                        "publishResultAs": "",
+                        "retry": null,
+                        "runAsOrgId": "",
+                        "timeout": 600,
+                        "transitionMode": "FOLLOW_ALL",
+                        "with": null
+                    }
+                ],
+                "timeout": 28800,
+                "type": "STANDARD",
+                "varsSchema": {}
+            },
+            "nonfunctional_fields": {
+                "description": "",
+                "name": "Avanan REST API",
+                "parameters.body.description": "",
+                "parameters.body.label": "JSON Body",
+                "parameters.method.description": "GET, POST, PUT, DELETE, PATCH",
+                "parameters.method.label": "HTTP Method",
+                "parameters.url_path.description": "Example: /v1.0/msp/tenants",
+                "parameters.url_path.label": "URL Path",
+                "tasks[0].description": "",
+                "tasks[0].metadata": {
+                    "x": 840,
+                    "y": 288
+                },
+                "tasks[0].next[0].label": ""
+            },
+            "references": {
+                "workflow_task_id_ref1": {
+                    "kind": "string",
+                    "type": "workflow_task_id",
+                    "src_key_hash": "CYTTaE6HniRNTAqiLnm9MLAEho1pVygjgQDeg8nbynBx",
+                    "content_hash": "GjThkLj6vL79bZEFjdeVS6MQRRntQednaYNsAg9nv945",
+                    "locations": [
+                        "tasks[0].id"
+                    ]
+                },
+                "workflow_ref1": {
+                    "kind": "string",
+                    "type": "workflow",
+                    "src_key_hash": "5QSaqVt3uesgXwuBAZuvbvjwYayDTrtXwErmJeu8p7Mo",
+                    "content_hash": "9MbbcFdVSDcEvjE3T9ZEqupfJYGZEZmuN3k5zUruHyU2",
+                    "locations": [
+                        "tasks[0].action.workflow_id"
+                    ]
+                },
+                "template_ref1": {
+                    "kind": "string",
+                    "type": "template",
+                    "src_key_hash": "Edb6GChLzALNC4HCUWr4ZsG4rB9vQcWpuwCTwT5nVF9G",
+                    "content_hash": "5fUn64DyanED5EfE8e7M6f8rTmxVuSxgaMcoQDbdZyC8",
+                    "locations": [
+                        "tasks[0].input.script_content"
+                    ]
+                },
+                "transition_id_ref1": {
+                    "kind": "string",
+                    "type": "transition_id",
+                    "src_key_hash": "AU55Qv6UT4uxqVLodLozYcQe5U4xouk1ptYLXgpYh58X",
+                    "content_hash": "3RHsDqHoWe6fmvzFA4WTcEs6zCChR8KfM2q6jdM4JJMx",
+                    "locations": [
+                        "tasks[0].next[0].id"
+                    ]
+                }
+            },
+            "dependencies": [
+                "workflow_task_id:CYTTaE6HniRNTAqiLnm9MLAEho1pVygjgQDeg8nbynBx",
+                "transition_id:AU55Qv6UT4uxqVLodLozYcQe5U4xouk1ptYLXgpYh58X",
+                "workflow:5QSaqVt3uesgXwuBAZuvbvjwYayDTrtXwErmJeu8p7Mo",
+                "template:Edb6GChLzALNC4HCUWr4ZsG4rB9vQcWpuwCTwT5nVF9G"
+            ]
+        },
+        "workflow:5QSaqVt3uesgXwuBAZuvbvjwYayDTrtXwErmJeu8p7Mo": {
+            "type": "workflow",
+            "content_hash": "9MbbcFdVSDcEvjE3T9ZEqupfJYGZEZmuN3k5zUruHyU2",
+            "hash": "A3JXnF5jUh8opReBG9Fpj2CdwAFoP6d826QmdT2EwT1K",
+            "fields": {
+                "humanSecondsSaved": 0,
+                "notes": [],
+                "output": [
+                    {
+                        "result": "{{ CTX.response }}"
+                    }
+                ],
+                "parameters": {
+                    "encode": {
+                        "type": "boolean",
+                        "default": "{{ true }}",
+                        "required": true,
+                        "multiline": false
+                    },
+                    "script_content": {
+                        "type": "script",
+                        "default": "",
+                        "required": true,
+                        "multiline": false
+                    }
+                },
+                "tasks": [
+                    {
+                        "id": "@@@workflow_task_id_ref1@@@",
+                        "action": {
+                            "id": "@@@action_ref1@@@"
+                        },
+                        "humanSecondsSaved": 0,
+                        "input": {},
+                        "isMocked": false,
+                        "join": 0,
+                        "mockInput": {
+                            "mock_result": {}
+                        },
+                        "name": "END",
+                        "next": [
+                            {
+                                "do": [],
+                                "from": null,
+                                "id": "@@@transition_id_ref1@@@",
+                                "publish": [],
+                                "to": null,
+                                "when": "{{ SUCCEEDED }}"
+                            }
+                        ],
+                        "packOverrides": [],
+                        "publishResultAs": "",
+                        "retry": null,
+                        "runAsOrgId": "",
+                        "timeout": 600,
+                        "transitionMode": "FOLLOW_ALL",
+                        "with": null
+                    },
+                    {
+                        "id": "@@@workflow_task_id_ref2@@@",
+                        "action": {
+                            "id": "@@@action_ref1@@@"
+                        },
+                        "humanSecondsSaved": 0,
+                        "input": {},
+                        "isMocked": false,
+                        "join": 0,
+                        "mockInput": {
+                            "mock_result": {}
+                        },
+                        "name": "encode_script",
+                        "next": [
+                            {
+                                "do": [
+                                    "@@@workflow_task_id_ref3@@@"
+                                ],
+                                "from": null,
+                                "id": "@@@transition_id_ref2@@@",
+                                "publish": [
+                                    {
+                                        "key": "script_content",
+                                        "value": "{{ CTX.script_content|base64 }}"
+                                    }
+                                ],
+                                "to": null,
+                                "when": "{{ CTX.encode }}"
+                            },
+                            {
+                                "do": [],
+                                "from": null,
+                                "id": "@@@transition_id_ref3@@@",
+                                "publish": [],
+                                "to": null,
+                                "when": "{{ CTX.encode is none or CTX.encode == false }}"
+                            }
+                        ],
+                        "packOverrides": [],
+                        "publishResultAs": "",
+                        "retry": null,
+                        "runAsOrgId": "",
+                        "timeout": 600,
+                        "transitionMode": "FOLLOW_ALL",
+                        "with": null
+                    },
+                    {
+                        "id": "@@@workflow_task_id_ref3@@@",
+                        "action": {
+                            "id": "@@@action_ref2@@@"
+                        },
+                        "humanSecondsSaved": 0,
+                        "input": {
+                            "data": "{{ CTX.script_content }}",
+                            "json": null,
+                            "method": "POST",
+                            "params": {
+                                "encoded": "{{ CTX.encode }}"
+                            },
+                            "cookies": null,
+                            "headers": {
+                                "x-functions-key": "{{ ORG.VARIABLES.rewstps_az_functions_key }}"
+                            },
+                            "raw_json": null,
+                            "url_path": "{{ ORG.VARIABLES.rewstps_az_functions_url ~ \"/api/run\" }}",
+                            "follow_redirects": true,
+                            "require_2xx_status": true
+                        },
+                        "isMocked": false,
+                        "join": 0,
+                        "mockInput": {
+                            "mock_result": {}
+                        },
+                        "name": "run_script",
+                        "next": [
+                            {
+                                "do": [
+                                    "@@@workflow_task_id_ref1@@@"
+                                ],
+                                "from": null,
+                                "id": "@@@transition_id_ref4@@@",
+                                "publish": [
+                                    {
+                                        "key": "response",
+                                        "value": "{{ RESULT.result.response }}"
+                                    }
+                                ],
+                                "to": null,
+                                "when": "{{ SUCCEEDED }}"
+                            }
+                        ],
+                        "packOverrides": [],
+                        "publishResultAs": "",
+                        "retry": null,
+                        "runAsOrgId": "",
+                        "timeout": 600,
+                        "transitionMode": "FOLLOW_ALL",
+                        "with": null
+                    },
+                    {
+                        "id": "@@@workflow_task_id_ref4@@@",
+                        "action": {
+                            "id": "@@@action_ref1@@@"
+                        },
+                        "humanSecondsSaved": 0,
+                        "input": {},
+                        "isMocked": false,
+                        "join": 0,
+                        "mockInput": {
+                            "mock_result": {}
+                        },
+                        "name": "BEGIN",
+                        "next": [
+                            {
+                                "do": [
+                                    "@@@workflow_task_id_ref2@@@"
+                                ],
+                                "from": null,
+                                "id": "@@@transition_id_ref5@@@",
+                                "publish": [],
+                                "to": null,
+                                "when": "{{ SUCCEEDED }}"
+                            }
+                        ],
+                        "packOverrides": [],
+                        "publishResultAs": "",
+                        "retry": null,
+                        "runAsOrgId": "",
+                        "timeout": 600,
+                        "transitionMode": "FOLLOW_ALL",
+                        "with": null
+                    }
+                ],
+                "timeout": 28800,
+                "type": "STANDARD",
+                "varsSchema": {}
+            },
+            "nonfunctional_fields": {
+                "description": "",
+                "name": "Run PowerShell Script",
+                "parameters.encode.description": "Set to true to encode the script with base64 before sending it to the API.",
+                "parameters.encode.label": "Encode Script",
+                "parameters.script_content.description": "Script you wish to run in Azure Functions.",
+                "parameters.script_content.label": "Script Content",
+                "tasks[0].description": "Action that does nothing",
+                "tasks[0].metadata": {
+                    "x": 296,
+                    "y": 362
+                },
+                "tasks[0].next[0].label": "",
+                "tasks[1].description": "Action that does nothing",
+                "tasks[1].metadata": {
+                    "x": 296,
+                    "y": 74
+                },
+                "tasks[1].next[0].label": "Encode",
+                "tasks[1].next[1].label": "Don't Encode",
+                "tasks[2].description": "Generic action for making authenticated requests against a custom REST API",
+                "tasks[2].metadata": {
+                    "x": 296,
+                    "y": 218
+                },
+                "tasks[2].next[0].label": "",
+                "tasks[3].description": "Action that does nothing",
+                "tasks[3].metadata": {
+                    "x": 296,
+                    "y": -70
+                },
+                "tasks[3].next[0].label": ""
+            },
+            "references": {
+                "workflow_task_id_ref4": {
+                    "kind": "string",
+                    "type": "workflow_task_id",
+                    "src_key_hash": "CnHwzYPYA9uMQQFH3B2aBzSGapjaNisexKS6B9YSW26a",
+                    "content_hash": "FFKFhVGXL1JTpKLRtLkYXyNgdj2cNVT1NNiLxEJVo9it",
+                    "locations": [
+                        "tasks[3].id"
+                    ]
+                },
+                "transition_id_ref5": {
+                    "kind": "string",
+                    "type": "transition_id",
+                    "src_key_hash": "CCwvJuceH3Jnfck4hpEyQnx26Rrf4QFBM7TzeB8R4TYM",
+                    "content_hash": "k2UbHmPM82uD3BjfSDHbDrfjjbBcfFNDj4yKVkzTpgw",
+                    "locations": [
+                        "tasks[3].next[0].id"
+                    ]
+                },
+                "action_ref2": {
+                    "kind": "string",
+                    "type": "action",
+                    "src_key_hash": "9GoZKBkLrykuCJadaUj6X32QLLCHpA2zN6sXfas2igEN",
+                    "content_hash": "43yEKANtUPK6radWrCaXrUAzEApBtGPN2CPHUiYqDuz2",
+                    "locations": [
+                        "tasks[2].action.id"
+                    ]
+                },
+                "workflow_task_id_ref1": {
+                    "kind": "string",
+                    "type": "workflow_task_id",
+                    "src_key_hash": "HRPyyrArv5vYjjEypVmTaV5artRR74d2Uq85DD5cuQGm",
+                    "content_hash": "BkNKcX35GX3pGSi8vYAHCeRMtzHMZCnBjdSqN31dJ3Dy",
+                    "locations": [
+                        "tasks[0].id",
+                        "tasks[2].next[0].do[0]"
+                    ]
+                },
+                "transition_id_ref4": {
+                    "kind": "string",
+                    "type": "transition_id",
+                    "src_key_hash": "EAx4aRYBL21t5qtMvhWY61pF3tjLNe8PHq3DBdd8PQis",
+                    "content_hash": "ZYT77wHJviAwxVf2LLZB8rTDfGSU8iq3AK2q9S58APL",
+                    "locations": [
+                        "tasks[2].next[0].id"
+                    ]
+                },
+                "transition_id_ref3": {
+                    "kind": "string",
+                    "type": "transition_id",
+                    "src_key_hash": "GmieEUyRVpysuEoLFv1QxbJcZWmLoEt8fHVoa2PraX9s",
+                    "content_hash": "EAFQLTAhAMz6JeQXVUpQS6QcgZ73tpG6okE1e1wq1GiA",
+                    "locations": [
+                        "tasks[1].next[1].id"
+                    ]
+                },
+                "transition_id_ref1": {
+                    "kind": "string",
+                    "type": "transition_id",
+                    "src_key_hash": "34FiuKUoQ6w7sTV7T1ip843vMAvGZrbVwPsyMirwHfKb",
+                    "content_hash": "Bec8jXkAooo8HhZyUxLeUZuG7S19L1kUqdLo3fnp3Ef2",
+                    "locations": [
+                        "tasks[0].next[0].id"
+                    ]
+                },
+                "workflow_task_id_ref2": {
+                    "kind": "string",
+                    "type": "workflow_task_id",
+                    "src_key_hash": "6q6o2Sibfz9XrNKjQBD9cvuCx3AWEQeTST6beiuA6rw5",
+                    "content_hash": "43znENGE8PTDkAhRFoPSsVGcZ7jVxaEmLmcFQfS8rkQw",
+                    "locations": [
+                        "tasks[1].id",
+                        "tasks[3].next[0].do[0]"
+                    ]
+                },
+                "workflow_task_id_ref3": {
+                    "kind": "string",
+                    "type": "workflow_task_id",
+                    "src_key_hash": "ASu1DXFtkDsKwSb6EQwNZLhP645xJe3dtFT3boDDtCmQ",
+                    "content_hash": "89rNtdvQg1SVFbCqunD5jxjcDFiWAhCby7dPv2iPkaLa",
+                    "locations": [
+                        "tasks[2].id",
+                        "tasks[1].next[0].do[0]"
+                    ]
+                },
+                "action_ref1": {
+                    "kind": "string",
+                    "type": "action",
+                    "src_key_hash": "HiyK72T6jFDWLq2X1bx5vBc9Pa3FcfquRvT2JfYDeUch",
+                    "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+                    "locations": [
+                        "tasks[0].action.id",
+                        "tasks[1].action.id",
+                        "tasks[3].action.id"
+                    ]
+                },
+                "transition_id_ref2": {
+                    "kind": "string",
+                    "type": "transition_id",
+                    "src_key_hash": "D7gTZ9vi4C3nd1FbAv4a6Z77Tq3h6o9qrp3gDE3xubXs",
+                    "content_hash": "FKkdvsSSuM4i43fpTHK8PiG1nnmhkHLmY8ykRc8dEUAn",
+                    "locations": [
+                        "tasks[1].next[0].id"
+                    ]
+                }
+            },
+            "dependencies": [
+                "transition_id:CCwvJuceH3Jnfck4hpEyQnx26Rrf4QFBM7TzeB8R4TYM",
+                "action:HiyK72T6jFDWLq2X1bx5vBc9Pa3FcfquRvT2JfYDeUch",
+                "transition_id:D7gTZ9vi4C3nd1FbAv4a6Z77Tq3h6o9qrp3gDE3xubXs",
+                "transition_id:34FiuKUoQ6w7sTV7T1ip843vMAvGZrbVwPsyMirwHfKb",
+                "workflow_task_id:6q6o2Sibfz9XrNKjQBD9cvuCx3AWEQeTST6beiuA6rw5",
+                "workflow_task_id:ASu1DXFtkDsKwSb6EQwNZLhP645xJe3dtFT3boDDtCmQ",
+                "transition_id:EAx4aRYBL21t5qtMvhWY61pF3tjLNe8PHq3DBdd8PQis",
+                "workflow_task_id:HRPyyrArv5vYjjEypVmTaV5artRR74d2Uq85DD5cuQGm",
+                "workflow_task_id:CnHwzYPYA9uMQQFH3B2aBzSGapjaNisexKS6B9YSW26a",
+                "transition_id:GmieEUyRVpysuEoLFv1QxbJcZWmLoEt8fHVoa2PraX9s",
+                "action:9GoZKBkLrykuCJadaUj6X32QLLCHpA2zN6sXfas2igEN"
+            ]
+        }
+    },
+    "__typename": "ExportBundle"
+}
