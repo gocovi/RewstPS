@@ -77,3 +77,21 @@ I have not tested posting data, yet! If you try it, you'll want to pass your bod
 1. Add the `Invoke-AvananRestMethod.ps1` script in the examples folder to your scripts in Rewst.
 1. Import the **avanan_rest_api.bundle.json** in the workflows folder.
 1. Test the imported workflow. Per the standard results from the Avanan SmartAPI, you should have your tenant data in `{{ RESULT.result.responseData }}`.
+
+# Input Support
+
+Inputs are now supported. Rather than posting your entire script to the body (which you can still do), you can format your request like this:
+
+```
+{ 
+    "input": {
+        "something": {
+            "foo": "bar"
+        }
+    },
+    "script": "$something"
+}
+```
+
+This eliminates the need to embed variables inside of the script and workarounds, such as converting JSON text back to an object for anything complex.
+
