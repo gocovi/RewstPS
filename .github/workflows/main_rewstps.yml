@@ -15,11 +15,20 @@ env:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    
+    permissions:
+      id-token: write #This is required for requesting the JWT
+
     steps:
       - name: 'Checkout GitHub Action'
         uses: actions/checkout@v4
       
+      - name: Login to Azure
+        uses: azure/login@v1
+        with:
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_23C0705851934771A478A09236352193 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_45BB7DA34839492E80F1F3CDADD86FA6 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_89147E5693734B4F81985A273D0F7B27 }}
+
       - name: 'Run Azure Functions Action'
         uses: Azure/functions-action@v1
         id: fa
@@ -27,4 +36,4 @@ jobs:
           app-name: 'RewstPS'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_081F5C4F39F94BE7A60B5D2A9D51F142 }}
+          
