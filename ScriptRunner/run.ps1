@@ -3,6 +3,8 @@ using namespace System.Net
 # Input bindings are passed in via param block.
 param($Request, $TriggerMetadata)
 
+$ErrorActionPreference = "Stop"
+
 if (-not (Test-Path -Path "~/tmp")) {
     New-Item -Path "~/tmp" -ItemType Directory | Out-Null
 }
