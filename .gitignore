@@ -1,3 +1,5 @@
+.github/
+requirements.psd1
 /Requests
 bin
 obj
