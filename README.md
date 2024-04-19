@@ -95,3 +95,76 @@ Inputs are now supported. Rather than posting your entire script to the body (wh
 
 This eliminates the need to embed variables inside of the script and workarounds, such as converting JSON text back to an object for anything complex.
 
+# Custom Functions and Modules
+
+Azure Functions for PowerShell lets you bring modules in with the `requirements.psd1` file and inject your own startup code with `profile.ps1`.
+
+If you'd like to add Microsoft Graph, for example, you'd create your own `requirements.psd1` file that looked something like this:
+
+```
+@{
+    'Microsoft.Graph' = '2.3.0'
+}
+```
+
+Be careful, though, as this adds a lot of time to the startup process. It's a better practice to only import the submodules you need, like `Microsoft.Graph.Authentication`.
+
+For custom functions, you can place whatever you want in `profile.ps1`, including functions that you'd like available in your code. In my personal repository, for example, I have the following to mimic the Secrets Management module's `Get-Secret` function:
+
+```
+# Azure Functions profile.ps1
+
+# Authenticate with Azure PowerShell using MSI.
+# Remove this if you are not planning on using MSI or Azure PowerShell.
+if ($env:MSI_SECRET) {
+    $ExpirationDate = $null
+    $AccessToken = $null
+
+    function Get-Secret {
+        param(
+            [Parameter(Mandatory = $true)]
+            [string]$Name,
+
+            # This is just for compatibility with the existing code
+            [Parameter()]
+            [switch]$AsPlainText
+        )
+
+        if($null -eq $AccessToken -or $ExpirationDate -lt (Get-Date)) {
+            $Params = @{
+                Uri     = "$env:MSI_ENDPOINT`?resource=https://vault.azure.net&api-version=2017-09-01"
+                Method  = 'GET'
+                Headers = @{ Secret = $env:MSI_SECRET }
+            }
+
+            $AuthResponse = (Invoke-RestMethod @Params)
+            $AccessToken = $AuthResponse.access_token
+            $ExpirationDate = $AuthResponse.expires_on -as [DateTime]
+        }
+
+        # Key Vault details
+        $KeyVaultName = "MyKeyVault"  # Replace with your Key Vault name
+        $SecretUri = "https://$KeyVaultName.vault.azure.net/secrets/$Name"
+
+        # Retrieve secret using the access token
+        $SecretParams = @{
+            Uri     = $SecretUri
+            Method  = 'GET'
+            Body    = @{'api-version' = '7.4' }
+            Headers = @{
+                'Authorization' = "Bearer $AccessToken"
+                'Content-Type'  = 'application/json'
+            }
+        }
+
+        $SecretResponse = Invoke-RestMethod @SecretParams
+
+        # Extract the secret value
+        $SecretResponse.value
+    }
+}
+```
+
+For this to work, you'll need to enable Identity on your Azure Function and give it permissions to your Key Vault.
+
+This allows me to use almost all of my personal scripts with no changes using RewstPS.
