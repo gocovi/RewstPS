@@ -5,6 +5,7 @@ Use this project and workflow to run raw PowerShell scripts directly in Azure Fu
 # Setup
 
 1. Fork this repository.
+1. Create a new file in your repo called `requirements.psd1` with at least the following content `@{}` for the content. You can use this later to add custom modules.
 1. Create a Function App in Azure. You'll need to name it something unique to your organization. I'd recommend using PowerShell Core and Linux as your operating system.
 1. In your Function App in Azure, go to **Deployment Center** and connect it to the forked GitHub repository.
 1. In Overview, copy your URL. We'll use this later to setup our Custom Integration. It will look like the following: https://functionappname.azurewebsites.net/api/run.
